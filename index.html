@@ -11,7 +11,7 @@ title: ~ Nelson Auner ~
   <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; {{ post.title }} </br>
-	  {{% post.picture != ""%}}
+	  {{% if post.picture != ""%}}
 	  <p><IMG SRC= {{post.picture}} height="200" width ="250" </p>
 	  {{%endif%}}
 	  {{post.content}} </li>
