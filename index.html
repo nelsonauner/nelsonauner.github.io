@@ -10,10 +10,10 @@ title: ~ Nelson Auner ~
   <h1>Posts</h1>
   <ul class="posts">
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; {{ post.title }} </br>
-	  {{% if post.picture != ""%}}
-	  <p><IMG SRC= {{post.picture}} height="200" width ="250" </p>
-	  {{%endif%}}
+      <li><span>{{ post.date | date_to_string }}</span>  {{ post.title }} </br>
+	  {% if post.picture != ""%}
+	  <p><IMG SRC= {{post.picture}} height={{post.pheight}} width ={{post.pwidth}}> </p> 
+	  {% endif %}
 	  {{post.content}} </li>
     {% endfor %}
   </ul>

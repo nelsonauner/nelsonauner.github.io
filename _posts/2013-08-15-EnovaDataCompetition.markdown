@@ -3,6 +3,8 @@ layout: post
 title:  "Enova Data Competition"
 subtitle: ""
 picture: "images/loanprofit.PNG"
+pwidth: "250"
+pheight: "200"
 date:   2013-10-15 3:00:00
 categories: research
 ---
