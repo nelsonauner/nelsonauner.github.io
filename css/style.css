@@ -1,0 +1,139 @@
+/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+*{
+padding:0;
+margin:0;
+}
+
+body{
+background:#000 url(/images/big_pic.jpg) bottom right no-repeat;
+font-family: Garamond, Didot, Perpetua, Arial, Helvetica, serif;
+font-size: 14px;
+color:#898989;
+padding-bottom: 20px;
+}
+
+a{
+color:#0BC202;
+text-decoration:none;
+}
+
+a:hover, a:active{
+color:#0BC202;
+text-decoration:underline;
+}
+
+#header{
+margin:15px;
+}
+
+#toplinks
+{
+height: 40px;
+padding-left: 30px;
+}
+
+#toplinks ul li{
+list-style: none;
+float: left;
+display: inline;
+}
+
+#toplinks a
+{
+display: block;
+padding: 10px;
+}
+
+
+#wrapper{
+float: left;
+margin-left: 30px;
+width:460px;
+background:#ffffff;
+padding: 5px;
+border: 5px #898989 solid;
+}
+
+#logo h1
+{
+font-size: 22px;
+padding-left: 20px;
+font-weight: bold;
+}
+
+#logo h2 a
+{
+font-size: 14px;
+padding-left: 20px;
+font-weight: bold;
+}
+
+
+#toplinks ul li a:hover, a:active{
+background: #ffffff;
+}
+
+
+#text{
+min-height:460px;
+padding:10px;
+}
+
+#text p{
+padding:5px;
+}
+
+h1, h2, h3{
+padding:5px;
+color:#898989;
+}
+
+h1{
+font-size:1.2em;
+}
+
+h2{
+font-size:1.05em;
+}
+
+h3{
+font-size:1em;
+}
+
+#text ul, ol{
+padding-left:12px;
+margin-left:12px;
+}
+
+blockquote{
+margin:2px 15px;
+border-left:3px double #B07A34;
+padding-left:5px;
+}
+
+
+.meta{
+text-align:right;
+color:#0CFF00;
+font-size:0.79em;
+}
+
+.meta a{
+text-decoration:underline;
+}
+
+#footer{
+font-size:0.79em;
+text-align:center;
+margin:10px;
+border-top:1px solid #B07A34;
+}
+
+#footer a{
+text-decoration:underline;
+}

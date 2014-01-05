@@ -1,1 +1,18 @@
-Hello World
+---
+layout: default
+title: ~ Nelson Auner ~ 
+---
+
+<div id="home">
+<p>I am a current joint <a href="http://www.stat.uchicago.edu/people/ms-students.shtml#ba/ms">Masters/undergraduate student</a>  at the University of Chicago and native of Madison, WI. I have also spent time living in South Korea.</p>
+<p> This webpage will be used to host large files for projects. The files are not available to the public. To access them, please contact me for the direct URL</p>
+			    
+  <h1>Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; {{ post.title }} </br>
+	  <p><IMG SRC= {{post.picture}} height="150" width ="250" </p>
+	  {{post.content}} </li>
+    {% endfor %}
+  </ul>
+</div>
