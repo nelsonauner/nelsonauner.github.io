@@ -7,4 +7,5 @@ date:   2014-01-2 3:00:00
 categories: tech
 ---
 
-I've rewritten my site using Jekyll and Github
+I've rewritten my site using Jekyll, and hosting it on my own domain, as opposed to the University-provided home page. 
+It'll be, at worst, a fun experiment!
