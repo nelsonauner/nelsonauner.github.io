@@ -2,11 +2,13 @@
 
 body
 {
-	font-size:       62.5%; 
+	font-size:       12px; 
 	margin:          0;
 	padding:         0;
 	background-color: #000;
-	font-family:     'lucida grande', arial, tahoma, sans-serif;
+	color:#898989;
+	font-family: Garamond, Didot, Perpetua, Arial, Helvetica, serif;
+	padding-bottom: 20px;
 }
 
 #container
@@ -59,7 +61,7 @@ body
 
 #menu ul li a:link, #menu ul li a:active, #menu ul li a:visited
 {
-	color:           #767676;	
+	color:           #0BC202;	
 	padding:         10px 7px 10px 7px;
 	font-size:       1em;
 
@@ -95,14 +97,35 @@ body
 {
 	margin:          0;
 	color:           #767676;
-	font-family:     Tahoma;
+	font-family: Garamond, Didot, Perpetua, Arial, Helvetica, serif;
 	font-size:       1.2em;
 	line-height:     170%;
 }
 
+h1, h2, h3{
+padding:3px;
+color:#898989;
+}
+
+a{
+color:#0BC202;
+text-decoration:none;
+}
 
 
+h1{
+font-size:1.5em;
+}
 
+h2{
+font-size:1.05em;
+}
+
+h3{
+font-size:1em;
+}
+
+/* 
 h1
 {
 	margin:          0;
@@ -131,7 +154,7 @@ h3
 	font-weight:     normal;
 	color:           #94C258;
 }
-
+ */
 #footer
 {
 	margin:          0 auto;
@@ -144,7 +167,7 @@ h3
 {
 	display:         block;
 	position:        relative;
-	font-family:    Tahoma;
+	font-family: Garamond, Didot, Perpetua, Arial, Helvetica, serif;
 	font-size:       1.2em;
 	padding:         10px;
 	color:           #767676;
@@ -168,13 +191,13 @@ h3
 
  .posts span {
   color: #0066CC;
-  font-family: Monaco, "Courier New", monospace;
+  font-family: Garamond, Didot, Perpetua, Arial, Helvetica, serif;
   font-size: 120%;
 }
  
  .posts strong {
   color: #6A7919;
-  font-size: 130%;
+  font-size: 100%;
 }
 
 /*****************************************************************************/

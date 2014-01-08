@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Article in the El Mercurio"
+title:  "Mentioned in Chilean Newpaper El Mercurio"
 subtitle: ""
 picture: ""
 pwidth: ""
