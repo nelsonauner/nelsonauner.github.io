@@ -2,6 +2,7 @@
 
 body
 {
+	background:#000 url(images/background.jpg) bottom right no-repeat;
 	font-size:       12px; 
 	margin:          0;
 	padding:         0;
