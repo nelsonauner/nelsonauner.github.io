@@ -15,7 +15,14 @@ title:
 	  <IMG SRC= {{post.picture}} height={{post.pheight}} width ={{post.pwidth}} >
 	  </br>
 	  {% endif %}
+	  <!--{% if post.content.length() > 1000 %}
+	  {{post.subtitle}}
+	  <a href="{{ post.url }}">Read the full post</a>
+	  {% endif %}
+	  {% if post.content.length() < 1000 %}
 	  {{post.content}} 
+	  {% endif %} -->
+	  {{post.content}}
 	  </p></br>
     {% endfor %}
  </div>

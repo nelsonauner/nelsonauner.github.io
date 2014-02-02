@@ -5,7 +5,7 @@ subtitle: ""
 picture: "images/torajalandSMALL.PNG"
 pwidth: ""
 pheight: ""
-date:   2012-08-06 3:00:00
+date:   2013-08-06 3:00:00
 categories: travels
 long: "T"
 ---
