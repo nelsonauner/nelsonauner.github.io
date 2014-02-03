@@ -2,7 +2,7 @@
 layout: post
 title:  "Come and run the Chicago Spring half marathon! "
 subtitle: ""
-picture: "images/ChicagoSpringHalf.JPG"
+picture: ""
 pwidth: "500"
 pheight: "170"
 date:   2014-02-02 23:00:00
