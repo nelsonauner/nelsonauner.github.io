@@ -1,13 +1,14 @@
 ---
 layout: post
 title:  "Trip to Tana Toraja "
-subtitle: ""
+subtitle: "During the month of Ramadan, a friend and I decided to hike through parts of Tana Toraja, a popular wilderness destination in Sulaweisi, one of the large islands of Indonesia."
 picture: "images/torajalandSMALL.PNG"
 pwidth: ""
 pheight: ""
+long: "T"
 date:   2013-08-06 3:00:00
 categories: travels
-long: "T"
+
 ---
 
 During the month of Ramadan, a friend and I decided to hike through parts of Tana Toraja, a popular wilderness destination in Sulaweisi, one of the large islands of Indonesia.   

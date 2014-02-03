@@ -15,14 +15,13 @@ title:
 	  <IMG SRC= {{post.picture}} height={{post.pheight}} width ={{post.pwidth}} >
 	  </br>
 	  {% endif %}
-	  <!--{% if post.content.length() > 1000 %}
-	  {{post.subtitle}}
-	  <a href="{{ post.url }}">Read the full post</a>
+	  {% if post.long == "T"%}
+	 <p> {{post.subtitle}}</p>
+<p>	  <a href="{{ post.url }}">Read the full post</a></p>
 	  {% endif %}
-	  {% if post.content.length() < 1000 %}
+	  {% if post.long == "F"%}
 	  {{post.content}} 
-	  {% endif %} -->
-	  {{post.content}}
+	  {% endif %}
 	  </p></br>
     {% endfor %}
  </div>

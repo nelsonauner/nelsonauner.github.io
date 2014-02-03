@@ -3,7 +3,7 @@ layout: post
 title:  "Running maps in Oaxaca"
 subtitle: ""
 picture: ""
-date:   2013-02-02 3:00:00
+date:   2013-01-02 3:00:00
 categories: travels
 long: "F"
 ---

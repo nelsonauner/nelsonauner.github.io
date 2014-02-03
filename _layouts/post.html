@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<h2>{{ page.title }}</h2>
+<p class="meta">{{ page.date | date_to_string }}</p>
+<div class="post">
+  {% if page.picture != ""%}
+	  <IMG SRC= /{{page.picture}} height={{page.pheight}} width ={{page.pwidth}} >
+	  </br>
+	  {% endif %}
+	  {{picture}}
+{{ content }}
+</div>
