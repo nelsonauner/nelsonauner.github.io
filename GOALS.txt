@@ -1,29 +1,11 @@
 - TO DO 
-- can we not display an image if the image file is blank? 
-- turn all old site into posts, with categories
-- have category pages display relevant posts
-- on main page: full info for most recent 5 posts, then abbreviated - (subtitle)
-- 
-
-2 data types:
-
-Long post - seperate page
-  - this post has several attributes: 
-     - date
-	 - title
-	 - subtitle - short content to be displayed on main page. 
-	 - picture - a small pic to be displayed on the main page. Every post must have one? 
-	 - url of the post page. 
-	 #Kao's posts have a *category* variable. maybe you can use an if statement to only show posts of the relevant category. 
+- can we not display an image if the image file is blank? DONE
+- turn all old site into posts, with categories DONE
+- have category pages display relevant posts 
 	 
 	 
-	 categories:
-	 -tech
-	 -research
-	 -travels
-	 -food
-	
-
 PAGES TO DO 
 creating a hmm model with python. link to github. 
 jekyll webpage building -> .bat script to automatically date. 
+24 hours in madison
+experience with just chat`
