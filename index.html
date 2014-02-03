@@ -4,8 +4,7 @@ title:
 ---
 
 <div id="home">
-<p><h1>Welcome to my Website</h1></p>
-  <h1>Posts:</h1>
+  <h1>Recent Posts</h1>
  <div class="posts">
     {% for post in site.posts %}
       <p><b>{{ post.date | date_to_string }} - {{ post.title }} </b></p>

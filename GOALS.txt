@@ -8,4 +8,7 @@ PAGES TO DO
 creating a hmm model with python. link to github. 
 jekyll webpage building -> .bat script to automatically date. 
 24 hours in madison
-experience with just chat`
+experience with just chat
+
+TURN THE TITLE INTO A LINK IF IT"S A FULL STORY
+`
