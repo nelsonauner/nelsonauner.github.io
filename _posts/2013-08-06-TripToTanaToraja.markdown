@@ -6,6 +6,7 @@ picture: "images/torajalandSMALL.PNG"
 pwidth: ""
 pheight: ""
 long: "T"
+showpic: "T"
 date:   2013-08-06 3:00:00
 categories: travels
 
