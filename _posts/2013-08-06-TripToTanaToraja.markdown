@@ -4,7 +4,7 @@ title:  "Trip to Tana Toraja "
 subtitle: "During the month of Ramadan, a friend and I decided to hike through parts of Tana Toraja, a popular wilderness destination in Sulaweisi, one of the large islands of Indonesia."
 picture: "images/torajalandSMALL.PNG"
 pwidth: ""
-pheight: "250"
+pheight: ""
 long: "T"
 showpic: "T"
 date:   2013-08-06 3:00:00

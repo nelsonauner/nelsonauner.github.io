@@ -1,32 +1,27 @@
-/*
-Design by Metamorphosis Design
-http://www.metamorphozis.com
-Released for free under a Creative Commons Attribution 2.5 License
-*/
 
-*{
-padding:0;
-margin:0;
+
+body
+{
+	background:#000 url(images/background.jpg) bottom right no-repeat;
+	font-size:       12px; 
+	margin:          0;
+	padding:         5px;
+	background-color: #000;
+	color:#898989;
+	font-family: Garamond, Didot, Perpetua, Arial, Helvetica, serif;
+	padding-bottom: 20px;
 }
 
-body{
-background:#000 url(images/big_pic.jpg) bottom right no-repeat;
-font-family: Garamond, Didot, Perpetua, Arial, Helvetica, serif;
-font-size: 14px;
-color:#898989;
-padding-bottom: 20px;
+#container
+{
+	margin:          0 auto;
+	padding-top:20px;
+	width:           683px;
+	position:        relative;
+	background-color:  #333;
 }
 
-a{
-color:#0BC202;
-text-decoration:none;
-}
-
-a:hover, a:active{
-color:#0BC202;
-text-decoration:underline;
-}
-
+<<<<<<< HEAD
 #header{
 margin:15px;
 	width:           640px;
@@ -34,72 +29,109 @@ margin:15px;
 	background:      transparent url('/images/header.jpg') top left no-repeat;
 }
 
-}
-
-#toplinks
+=======
+#header
 {
-height: 40px;
-padding-left: 30px;
+	margin:          0 auto;
+	width:           640px;
+	height:          250px;
+	background:      transparent url('/images/header.jpg') top left no-repeat;
+>>>>>>> parent of e4cd8c7... complete layout change
 }
 
-#toplinks ul li{
-list-style: none;
-float: left;
-display: inline;
-}
-
-#toplinks a
+.headtitle
 {
-display: block;
-padding: 10px;
+	position:        relative;
+	font-family:     Times;
+	font-size:       30px;
+	color:           #FFF;
+	top:             210px;
+	left:            12px;
 }
 
-
-#wrapper{
-float: left;
-margin-left: 30px;
-width:500px;
-background:#ffffff;
-padding: 5px;
-border: 5px #898989 solid;
-}
-
-#logo h1
+#menu
 {
+	margin:          0 20px;
+	height:          29px;
+	padding:         5px 0;
+}
+
+#menu ul
+{
+	margin:          0;
+	padding:         7px;
+
+	height:          29px;
+}
+
+#menu ul li
+{
+	list-style:      none;
+	display:         inline;
+}
+
+#menu ul li a:link, #menu ul li a:active, #menu ul li a:visited
+{
+<<<<<<< HEAD
 font-size: 22px;
 padding-left: 30px;
 font-weight: bold;
+=======
+	color:           #0BC202;	
+	padding:         10px 7px 10px 7px;
+	font-size:       1em;
+
+	font-family:     'lucida grande', arial, sans-serif;
+	font-weight:     bold;
+	text-decoration: none;
+>>>>>>> parent of e4cd8c7... complete layout change
 }
 
-#logo h2 a
+#menu ul li a:hover
 {
-font-size: 14px;
-padding-left: 20px;
-font-weight: bold;
+	background-color:   #6A7919;
+	color:           #FDFDFD;
 }
 
 
-#toplinks ul li a:hover, a:active{
-background: #ffffff;
+#content
+{
+	min-height:      390px;
+	width:           640px;
+	margin:          0 auto;
+	background-color:#FDFDFD;
 }
 
-
-#text{
-min-height:460px;
-padding:10px;
+#insidecontent
+{
+	float:           left;
+	padding-left:    25px;
+	padding-right:    25px;
+	width:           auto;
 }
 
-#text p{
-padding:5px;
+#insidecontent p
+{
+	margin:          0;
+	color:           #767676;
+	font-family: Garamond, Didot, Perpetua, Arial, Helvetica, serif;
+	font-size:       1.2em;
+	line-height:     110%;
 }
 
 h1, h2, h3{
-padding:5px;
+padding:3px;
 color:#898989;
 }
 
+a{
+color:#0BC202;
+text-decoration:none;
+}
+
+
 h1{
-font-size:1.2em;
+font-size:1.5em;
 }
 
 h2{
@@ -110,35 +142,115 @@ h3{
 font-size:1em;
 }
 
-#text ul, ol{
-padding-left:12px;
-margin-left:12px;
+/* 
+h1
+{
+	margin:          0;
+	font-weight:     normal;
+	color:           #6A7919;
+	font-size:       2.5em;
+	font-family:Times;
 }
 
-blockquote{
-margin:2px 15px;
-border-left:3px double #B07A34;
-padding-left:5px;
+h2
+{
+	margin:          0;
+	display:         inline;
+	position:        relative;
+	top:             -1.5em;
+	left:            2em;
+	font-size:       1.8em;
+	font-weight:     normal;
+	color:           #94c258;
+}
+
+h3
+{
+	margin:          0;
+	font-size:       1.5em;
+	font-weight:     normal;
+	color:           #94C258;
+}
+ */
+#footer
+{
+	margin:          0 auto;
+	width:           641px;
+	height:          39px;
+
+}
+
+#footer span
+{
+	display:         block;
+	position:        relative;
+	font-family: Garamond, Didot, Perpetua, Arial, Helvetica, serif;
+	font-size:       1.2em;
+	padding:         10px;
+	color:           #767676;
 }
 
 
-.meta{
-text-align:right;
-color:#0CFF00;
-font-size:0.79em;
+/* Start the code from main.css (jekyll template) here
+
+
+/*****************************************************************************/
+/*
+/* Home
+/*
+/*****************************************************************************/
+.posts {
+  list-style-type: none;
+  margin-bottom: 2em;
 }
 
-.meta a{
-text-decoration:underline;
+
+
+ .posts span {
+  color: #0066CC;
+  font-family: Garamond, Didot, Perpetua, Arial, Helvetica, serif;
+  font-size: 120%;
+}
+ 
+ .posts strong {
+  color: #6A7919;
+  font-size: 100%;
 }
 
-#footer{
-font-size:0.79em;
-text-align:center;
-margin:10px;
-border-top:1px solid #B07A34;
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+
+/* standard */
+.post pre {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .4em;
 }
 
-#footer a{
-text-decoration:underline;
+.post ul, .post ol {
+  margin-left: 1.35em;
+}
+
+.post code {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .2em;
+}
+
+.post pre code {
+  border: none;
+}
+
+/* terminal */
+.post pre.terminal {
+  border: 1px solid #000;
+  background-color: #333;
+  color: #FFF;
+}
+
+.post pre.terminal code {
+  background-color: #333;
 }
