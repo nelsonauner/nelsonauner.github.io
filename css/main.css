@@ -29,6 +29,11 @@ text-decoration:underline;
 
 #header{
 margin:15px;
+	width:           640px;
+	height:          250px;
+	background:      transparent url('/images/header.jpg') top left no-repeat;
+}
+
 }
 
 #toplinks
@@ -62,7 +67,7 @@ border: 5px #898989 solid;
 #logo h1
 {
 font-size: 22px;
-padding-left: 20px;
+padding-left: 30px;
 font-weight: bold;
 }
 
