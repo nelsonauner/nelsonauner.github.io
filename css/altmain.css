@@ -1,3 +1,5 @@
+
+
 body
 {
 	background:#000 url(images/background.jpg) bottom right no-repeat;
@@ -19,12 +21,22 @@ body
 	background-color:  #333;
 }
 
+<<<<<<< HEAD
+#header{
+margin:15px;
+	width:           640px;
+	height:          250px;
+	background:      transparent url('/images/header.jpg') top left no-repeat;
+}
+
+=======
 #header
 {
 	margin:          0 auto;
 	width:           640px;
 	height:          250px;
 	background:      transparent url('/images/header.jpg') top left no-repeat;
+>>>>>>> parent of e4cd8c7... complete layout change
 }
 
 .headtitle
@@ -60,6 +72,11 @@ body
 
 #menu ul li a:link, #menu ul li a:active, #menu ul li a:visited
 {
+<<<<<<< HEAD
+font-size: 22px;
+padding-left: 30px;
+font-weight: bold;
+=======
 	color:           #0BC202;	
 	padding:         10px 7px 10px 7px;
 	font-size:       1em;
@@ -67,6 +84,7 @@ body
 	font-family:     'lucida grande', arial, sans-serif;
 	font-weight:     bold;
 	text-decoration: none;
+>>>>>>> parent of e4cd8c7... complete layout change
 }
 
 #menu ul li a:hover
@@ -97,8 +115,8 @@ body
 	margin:          0;
 	color:           #767676;
 	font-family: Garamond, Didot, Perpetua, Arial, Helvetica, serif;
-	font-size:       1.5em;
-	line-height:     120%;
+	font-size:       1.2em;
+	line-height:     110%;
 }
 
 h1, h2, h3{
