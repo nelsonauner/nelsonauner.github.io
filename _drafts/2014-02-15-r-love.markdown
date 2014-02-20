@@ -1,0 +1,18 @@
+---
+layout: post
+title:"R: Love Money & Bitcoins"
+subtitle: ""
+picture: "images/"
+pwidth: ""
+pheight: ""
+long: "F"
+showpic: "T"
+categories: tech
+
+---
+
+http://www.r-bloggers.com/bitcoin-profits-with-the-sushi-burger-shuffle/
+http://www.r-bloggers.com/because-its-valentines-day-statistical-plushies/
+http://www.r-bloggers.com/how-to-add-comments-save-a-script-file-and-make-your-work-reproducible-in-r/
+http://www.r-bloggers.com/r-animating-2d-and-3d-plots/#at_pco=smlwn-1.0&at_tot=1&at_ab=per-1&at_pos=0
+http://readwrite.com/2014/02/20/linux-jobs-report#awesm=~owrZOB51FITNbi
