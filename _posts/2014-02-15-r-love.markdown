@@ -1,0 +1,20 @@
+---
+layout: post
+title: "R: Love, Money & Bitcoins"
+subtitle: "My favorite articles from the past month"
+picture: ""
+pwidth: ""
+pheight: ""
+long: "T"
+showpic: "F"
+categories: tech
+
+---
+
+There's been a lot of very interesting aRticles (har har) out this month. 
+
+[FX bitcoin arbitrage with R] (http://www.r-bloggers.com/bitcoin-profits-with-the-sushi-burger-shuffle/)		
+[Adorable Plush Statistical Distributions] (http://www.r-bloggers.com/because-its-valentines-day-statistical-plushies/)		
+[Animated 2D and 3D Plots] (http://www.r-bloggers.com/r-animating-2d-and-3d-plots/#at_pco=smlwn-1.0&at_tot=1&at_ab=per-1&at_pos=0)				
+[It’s a good time to be a Linux pro] (http://readwrite.com/2014/02/20/linux-jobs-report#awesm=~owrZOB51FITNbi)		
+[Learn git quick] (http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging)		
