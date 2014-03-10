@@ -31,5 +31,5 @@ You can read the [press release from the Chicago Mayor's office] (http://www.cit
  
  
  
-I'd like to thank Prof. Tony Cookson, Prof. Ali Hortacsu, Prof. Michael Stein, and Nathan Hess from the UChicago Crime Lab for their help and feedback. 
+I'd like to thank Prof. Tony Cookson, Prof. Ali Hortaçsu, Prof. Michael Stein, and Nathan Hess from the UChicago Crime Lab for their help and feedback. 
 
