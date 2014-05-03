@@ -1,4 +1,5 @@
-- have category pages display relevant posts 
+- have category pages display relevant posts (this is built in somewhere..)
+- change picture resolution size
 	 
 	 
 PAGES TO DO 
@@ -16,5 +17,4 @@ TRAVELS:
 creating a hmm model with python. link to github. 
 24 hours in madison
 
-TURN THE TITLE INTO A LINK IF IT"S A FULL STORY
 `
