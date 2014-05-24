@@ -1,8 +1,16 @@
 - have category pages display relevant posts (this is built in somewhere..)
 - change picture resolution size
+- Word cloud for master's presentation
+
+
+- Life to do: 
 	 
 	 
 PAGES TO DO 
+
+0 to Windows 8.1 in 10 minutes. 
+That conemu git shit
+
 TRAVELS:
 	Oaxaca
 	runs

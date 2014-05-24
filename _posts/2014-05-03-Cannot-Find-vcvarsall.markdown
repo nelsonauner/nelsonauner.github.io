@@ -1,11 +1,11 @@
 ---
 layout: post
 subtitle: ""
-picture: "images/vcvarsall.jpg"
+picture: ""
 pwidth: ""
 pheight: ""
 long: "F"
-showpic: "T"
+showpic: "F"
 categories: tech
 
 ---
