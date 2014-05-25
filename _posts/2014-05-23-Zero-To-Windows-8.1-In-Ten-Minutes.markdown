@@ -28,7 +28,7 @@ You can disable the start screen, tweak the finder menu (windows explorer) and a
 3. Install all the software you might be missing with chocolatey!
 (from the command prompt:)
 	
-	<pre><code> cinst git.install
+	<pre><code>cinst git.install
 	cinst notepadplusplus.install
 	cinst GoogleChrome
 	cinst Firefox
@@ -43,7 +43,7 @@ Find more programs in this [list of packages](https://chocolatey.org/packages)
 
 2. My old compression software didn't work so I downloaded [Pzip] (http://peazip.sourceforge.net/)
 
-2. If you want to code, get a great console and everything else up and running with this (great guide by Scotch.io) [http://scotch.io/bar-talk/get-a-functional-and-sleek-console-in-windows]
+2. If you want to code, get a great console and everything else up and running with this [great guide by Scotch.io](http://scotch.io/bar-talk/get-a-functional-and-sleek-console-in-windows)
 
 
 Please let me know if you have any suggestions!
