@@ -7,7 +7,7 @@ body
 	background-color: #000;
 	color:#898989;
 	font-family: Garamond, Didot, Perpetua, Arial, Helvetica, serif;
-	padding-bottom: 20px;
+	padding-bottom: 15px;
 }
 
 #container
@@ -96,7 +96,7 @@ body
 	color:           #767676;
 	font-family: Helvetica, serif;
 	font-size:       1.1em;
-	line-height:     140%;
+	line-height:     135%;
 }
 
 h1, h2, h3{
