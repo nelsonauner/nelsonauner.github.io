@@ -1,154 +1,165 @@
-/*********************************************************************************/
-/* Basic                                                                         */
-/*********************************************************************************/
+/*
+	Twenty 1.0 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/* Basic */
 
 	body {
 		min-width: 320px;
 	}
 
-	body,input,textarea,select {
-		font-size: 12pt;
-		line-height: 1.5em;
-	}
-
 	h2 {
-		font-size: 1.5em;
-		letter-spacing: -1px;
-	}
-	
-	/* Box */
-
-		.box {
-			padding: 1em;
-		}
-
-			.box.style2 {
-				padding: 1.5em 1.25em 1.5em 1.25em;
-				background-color: rgba(255,255,255,0.9);
-			}
-
-	/* Main */
-
-		.main {
-		}
-
-			.main.style1 {
-				padding: 4em 15px 4em 15px;
-			}
-
-				.main.style1 h2 {
-					font-size: 3em;
-					letter-spacing: -3px;
-				}
-
-			.main.style2 {
-				padding: 6em 15px 6em 15px;
-			}
-			
-				.main.style2 .button.anchored {
-					display: none;
-				}
-
-				.main.style2 .content {
-					width: 100%;
-					left: 0% !important;
-					text-align: center;
-				}
-				
-				.main.style2 .tmp {
-					width: 100%;
-					height: 10em;
-					background-size: cover;
-				}
-
-			.main.style3 {
-				text-align: center;
-				padding: 3em 10px 3em 10px;
-			}
-
-/*********************************************************************************/
-/* Header                                                                        */
-/*********************************************************************************/
-
-	#header {
-		height: 2.5em;
-		line-height: 2.5em;
+		font-size: 1.25em;
+		letter-spacing: 0.1em;
 	}
 
-	body {
-		padding-top: 2.5em;
+	h3 {
+		font-size: 1em;
+		letter-spacing: 0.025em;
 	}
 
-	#logo {
+	p {
+		text-align: justify;
+	}
+
+	header {
 		text-align: center;
-		position: relative;
-		left: 0;
-		top: 0;
-		height: 2.5em;
-		line-height: 2.5em;
-	}
-	
-		#logo a {
-			font-size: 1em;
-		}
-	
-	#nav {
-		display: none;
 	}
 
-/*********************************************************************************/
-/* Footer                                                                        */
-/*********************************************************************************/
-	
+		header.major {
+			padding-bottom: 0;
+		}
+
+		header.special {
+			margin-bottom: 3em;
+			padding-left: 1.5em;
+			padding-right: 1.5em;
+		}
+
+			header.special:before, header.special:after {
+				width: 38%;
+			}
+
+			header.special .icon {
+				font-size: 0.75em;
+				top: 1.5em;
+			}
+
+		header p {
+			text-align: center;
+		}
+
+	footer.major {
+		padding-top: 0;
+	}
+
+/* Icon */
+
+	.icon.circle {
+		font-size: 1em;
+	}
+
+/* Button */
+
+	.button {
+		max-width: 20em;
+		width: 100%;
+	}
+
+		.button.fit {
+			width: auto;
+		}
+
+/* Lists */
+
+	ul.icons li {
+		padding-left: 0.25em;
+	}
+
+	ul.feature-icons li .icon {
+		width: 1.1em;
+	}
+
+	ul.buttons {
+		text-align: center;
+	}
+
+/* Wrapper */
+
+	.wrapper {
+		margin-bottom: 2.5em;
+		padding: 2.25em 1.5em;
+	}
+
+		.wrapper.special br {
+			display: none;
+		}
+
+		.wrapper.style1 {
+			padding: 0 1.5em;
+		}
+
+		.wrapper.style2 {
+			background-size: 10em;
+			padding: 2.25em 1.5em;
+		}
+
+		.wrapper.style4 {
+			background-size: 10em;
+			padding: 1.5em 1.5em 3em 1.5em;
+		}
+
+/* Banner */
+
+	#banner {
+		background-size: 10em, 10em, auto, cover;
+		padding: 6em 0;
+	}
+
+		#banner .inner {
+			background: none;
+			display: block;
+			padding: 0 1.5em;
+		}
+
+			#banner .inner header h2 {
+				font-size: 1.5em;
+			}
+
+			#banner .inner p {
+				text-align: center;
+			}
+
+			#banner .inner br {
+				display: none;
+			}
+
+/* Main */
+
+	#main {
+		background-size: 10em;
+		padding: 3.5em 0 2.5em 0;
+	}
+
+	body.index #main {
+		padding: 2.5em 0 0 0;
+	}
+
+	body.contact #main {
+		padding-bottom: 0;
+	}
+
+/* CTA */
+
+	#cta {
+		background-size: 10em, 10em, auto, cover;
+		padding: 3em 1.5em;
+	}
+
+/* Footer */
+
 	#footer {
+		padding: 3em 1.5em;
 	}
-		
-		#footer .menu {
-		}
-		
-			#footer .menu li {
-				border-left: 0;
-				padding: 1em 0 0 0;
-				margin: 0;
-				display: block;
-			}
-			
-				#footer .menu li:first-child {
-					padding-top: 0;
-				}
-				
-				#footer .menu li a {
-					line-height: 1.5em;
-				}
-				
-/*********************************************************************************/
-/* Poptrox                                                                       */
-/*********************************************************************************/
-
-	.poptrox-popup {
-	}
-	
-		.poptrox-popup .nav-next,
-		.poptrox-popup .nav-previous {
-		}
-
-			.poptrox-popup .nav-next:before,
-			.poptrox-popup .nav-previous:before {
-				width: 48px;
-				height: 32px;
-				background-size: contain;
-				margin: -16px 0 0 0;
-			}
-			
-		.poptrox-popup .closer {
-		}
-		
-			.poptrox-popup .closer:before {
-				right: 12px;
-				top: 12px;
-				width: 20px;
-				height: 20px;
-				box-shadow: inset 0 0 0 1px #fff;
-				background-size: contain;
-				opacity: 0.65;
-			}

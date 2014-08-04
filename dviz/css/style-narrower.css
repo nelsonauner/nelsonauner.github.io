@@ -1,65 +1,116 @@
-/*********************************************************************************/
-/* Basic                                                                         */
-/*********************************************************************************/
+/*
+	Twenty 1.0 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
 
-	body,input,textarea,select {
-		font-size: 13pt;
+/* Basic */
+
+	header.major {
+		padding-bottom: 0.25em;
 	}
 
-	.container > .container {
-		width: 100% !important;
+	header.special {
+		margin-bottom: 4em;
+		padding-top: 5em;
 	}
-	
-	/* Main */
-		
-		.main {
+
+		header.special:before, header.special:after {
+			width: 40%;
 		}
-		
-			.main.style2 {
+
+		header.special h2 + p {
+			padding-top: 1.25em;
+		}
+
+	section {
+		margin: 1em 0 1em 0;
+	}
+
+		section:first-child {
+			margin-top: 0;
+		}
+
+/* Button */
+
+	.button.small {
+		font-size: 0.8em;
+		min-width: 18em;
+		padding: 0.75em 0;
+	}
+
+/* Lists */
+
+	ul.feature-icons {
+		margin: 0;
+	}
+
+		ul.feature-icons li {
+			display: inline-block;
+			float: none;
+			width: auto;
+		}
+
+			ul.feature-icons li .icon {
+				font-size: 4em;
+				width: 1.25em;
 			}
-			
-				.main.style2 .content {
-					width: 60%;
-				}
-			
-					.main.style2.right .content {
-						left: 40%;
-					}
 
-				.main.style2.inactive {
-				}
-
-					.main.style2.inactive .content {
-					}
-
-						.main.style2.inactive.left .content {
-							left: -60%;
-						}
-						
-/*********************************************************************************/
-/* Footer                                                                        */
-/*********************************************************************************/
-	
-	#footer {
-		height: auto;
-		line-height: inherit;
-		text-align: center;
-		padding: 2em 1em 2em 1em;
+	ul.buttons li {
+		display: block;
+		padding: 1em 0 0 0;
 	}
 
-		#footer .actions {
-			position: relative;
-			left: 0;
-			top: 0;
-			height: auto;
-			line-height: inherit;
-			margin: 0 0 1em 0;
+/* Header */
+
+	#header {
+		display: none;
+	}
+
+/* Banner */
+
+	#banner {
+		margin: 0;
+	}
+
+/* Wrapper */
+
+	.wrapper.special-alt {
+		text-align: center;
+	}
+
+	.wrapper.style4 {
+		padding-bottom: 3em;
+	}
+
+/* Main */
+
+	#main {
+		padding: 5em 0;
+	}
+
+		#main .sidebar {
+			border-top: solid 1px rgba(124, 128, 129, 0.1);
+			padding-top: 3em;
 		}
-		
-		#footer .menu {
-			position: relative;
-			right: 0;
-			top: 0;
-			height: auto;
-			line-height: inherit;
-		}
+
+			#main .sidebar section {
+				border-top: 0;
+				padding-top: 0;
+			}
+
+	body.index #main {
+		padding-top: 4.5em;
+	}
+
+/* CTA */
+
+	#cta {
+		margin: 0;
+	}
+
+/* Footer */
+
+	#footer {
+		padding: 4em 1.5em;
+	}

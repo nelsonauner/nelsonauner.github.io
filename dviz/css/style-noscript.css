@@ -4,13 +4,8 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Basic */
+/* Banner */
 
-	body, input, select, textarea {
-		font-size: 14pt;
-	}
-
-	header.special {
-		padding-top: 5.5em;
-		margin-bottom: 4em;
+	#banner .inner {
+		opacity: 1.0;
 	}
