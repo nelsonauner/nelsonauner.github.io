@@ -1,10 +1,10 @@
 ---
 layout: post
-subtitle: ""
+subtitle: "A fix for a common windows python error"
 picture: ""
 pwidth: ""
 pheight: ""
-long: "F"
+long: "T"
 showpic: "F"
 categories: tech
 
