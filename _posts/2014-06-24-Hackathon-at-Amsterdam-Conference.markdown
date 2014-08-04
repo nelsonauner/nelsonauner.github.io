@@ -2,7 +2,7 @@
 title: Hackathon in Amsterdam
 layout: post
 subtitle: ""
-picture: "images/mayfly.jpg"
+picture: "images/mayfly.JPG"
 pwidth: ""
 pheight: ""
 long: "F"
