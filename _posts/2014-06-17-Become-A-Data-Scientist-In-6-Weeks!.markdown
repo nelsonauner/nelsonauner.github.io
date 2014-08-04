@@ -1,7 +1,7 @@
 ---
 layout: post
 subtitle: ""
-picture: "data_scientist.jpg"
+picture: "images/data_scientist.jpg"
 pwidth: ""
 pheight: ""
 long: "T"
