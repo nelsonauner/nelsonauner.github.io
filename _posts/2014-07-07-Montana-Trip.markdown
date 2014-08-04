@@ -2,7 +2,7 @@
 title: Hiking trip in Montana
 layout: post
 subtitle: ""
-picture: "images/MontanaTrip.JPG"
+picture: "images/MontanaTrip.jpg"
 pwidth: ""
 pheight: ""
 long: "T"
