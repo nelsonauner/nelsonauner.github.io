@@ -868,8 +868,9 @@
 
 		
 		
-	#secone{
+	#secone {
 		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../images/middle_banner.jpg");
+		font: red;
 		}
 		
 /* Footer */
