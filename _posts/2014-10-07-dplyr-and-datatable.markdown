@@ -6,7 +6,7 @@ pwidth: ""
 pheight: ""
 long: "F"
 showpic: "F"
-categories: data
+categories: R
 
 ---
 
