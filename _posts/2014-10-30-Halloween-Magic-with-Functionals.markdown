@@ -125,7 +125,7 @@ ggplot(mms,
    theme(panel.background = element_rect(fill = "black"))
 ```
 
-![Halloween Plot](images/Halloweenggplot.png) 
+![Halloween Plot](http://nelsonauner.com/images/Halloweenggplot.png) 
 
 
 
