@@ -1,7 +1,7 @@
 ---
 layout: post
 subtitle: "Happy Halloween! This post explores the trendy `%>%` operator to add aspects of functional programming to R."
-picture: "imagespumpkinR.png"
+picture: "/images/pumpkinR.png"
 pwidth: ""
 pheight: ""
 long: "T"
@@ -125,7 +125,7 @@ ggplot(mms,
    theme(panel.background = element_rect(fill = "black"))
 ```
 
-![Halloween Plot](figure/Halloweenggplot.png) 
+![Halloween Plot](/figure/Halloweenggplot.png) 
 
 
 
