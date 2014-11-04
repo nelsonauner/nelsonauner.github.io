@@ -1,7 +1,7 @@
 ---
 layout: post
 subtitle: "Happy Halloween! This post explores the trendy `%>%` operator to add aspects of functional programming to R."
-picture: "/images/pumpkinR.png"
+picture: "images/pumpkinR.png"
 pwidth: ""
 pheight: ""
 long: "T"
