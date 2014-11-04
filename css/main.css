@@ -14,7 +14,7 @@ body
 {
 	margin:          0 auto;
 	padding-top:20px;
-	width:           750px;
+	width:           800px;
 	position:        relative;
 	background-color:  #333;
 }
@@ -89,9 +89,9 @@ body
 #insidecontent
 {
 	float:           left;
-	padding-left:    25px;
-	padding-right:    25px;
-	width:           720;
+	padding-left:    5px;
+	padding-right:    5px;
+	width:           750;
 	margin:          0;
 	color:           #767676;
 	font-family: Helvetica, serif;
