@@ -10,11 +10,6 @@ categories: R
 
 ---
 
-<html> 
-<style> 
-container {width:700;}
-</style>
-<html> 
 The popularity of `dplyr` has led to the use of `>%>` and an increase in the awareness of functional programming in R. This is great, as side-effectful statements has long been one of my greatest causes of error. Errors are scary, and it's halloween, so here's a quick example of `>%>` for `dplyr` and `ggplot`, using M&M data from the University of Puget Sound's [Data Hoard](http://stat.pugetsound.edu/hoard/datasets.aspx). Although the  [dev version](https://github.com/smbache/magrittr)  includes some new operators, this post covers only the standard `%>%` operator, which can be summarized as ` x %>% f == f(x)`
 
 
@@ -130,7 +125,7 @@ ggplot(mms,
    theme(panel.background = element_rect(fill = "black"))
 ```
 
-![plot of chunk ggplot](figure/ggplot.png) 
+![Halloween Plot](figure/Halloweenggplot.png) 
 
 
 
