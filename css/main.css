@@ -34,7 +34,7 @@ body
 
 #header
 {
-	margin:          20px;
+	margin:          auto;
 	width:           725px;
 	height:          250px;
 	background:      transparent url('/images/header.jpg') top left no-repeat;
