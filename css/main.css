@@ -20,9 +20,21 @@ body
 	background-color:  #333;
 }
 
+#container .image-container {
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+	font-family:     Times;
+	font-size:       30px;
+	color:           #FFF;
+	top:             210px;
+	left:            12px;
+}
+
+
 #header
 {
-	margin:          5px;
+	margin:          20px;
 	width:           725px;
 	height:          250px;
 	background:      transparent url('/images/header.jpg') top left no-repeat;
