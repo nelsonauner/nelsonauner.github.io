@@ -14,7 +14,7 @@ body
 {
 	margin:          0 auto;
 	padding-top:20px;
-	width:           900px;
+	width:           750px;
 	position:        relative;
 	background-color:  #333;
 }
@@ -22,7 +22,7 @@ body
 #header
 {
 	margin:          0 auto;
-	width:           640px;
+	width:           725px;
 	height:          250px;
 	background:      transparent url('/images/header.jpg') top left no-repeat;
 }
@@ -81,7 +81,7 @@ body
 #content
 {
 	min-height:      390px;
-	width:           640px;
+	width:           700px;
 	margin:          0 auto;
 	background-color:#FDFDFD;
 }
@@ -155,7 +155,7 @@ h3
 #footer
 {
 	margin:          0 auto;
-	width:           641px;
+	width:           700px;
 	height:          39px;
 
 }
