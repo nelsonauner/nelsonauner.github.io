@@ -21,7 +21,7 @@ body
 
 #header
 {
-	margin:          0 auto;
+	margin:          5px;
 	width:           725px;
 	height:          250px;
 	background:      transparent url('/images/header.jpg') top left no-repeat;
@@ -81,8 +81,8 @@ body
 #content
 {
 	min-height:      390px;
-	width:           680px;
-	margin:          0 auto;
+	width:           725x;
+	margin:          5px;
 	background-color:#FDFDFD;
 }
 
