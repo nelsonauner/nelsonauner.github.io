@@ -2,4 +2,4 @@ name: Tech, Travels and Data
 description: R and more
 url: http://nelsonauner.com/posts
 markdown: redcarpet
-pygments: true
+highlighter: pygments
