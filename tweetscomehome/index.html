@@ -34,7 +34,7 @@
 				<!--<li class="current"><a href="index.html">Intro</a></li>-->
 				<li><a href="#mappingtweets">Mapping Tweets</a></li>
 				<li><a href="#houseprices">House Prices</a></li>
-				<li><a href="#LSA">Interactive</a></li>
+				<li><a href="#LSA">LSA</a></li>
 				<li><a href="#Credits">Credits</a></li>
 				</nav>
 			</header>
@@ -57,7 +57,7 @@
 					An <strong>interactive </strong> data visualization of <br/> twitter activity and housing prices <br/> in London.
 					<br/> <br/> 
 					<img src="images/chicagoCabSmall.png" height="300" alt="" />
-					<img src="images/TwitterCodeLike.png" height="300" alt="" />
+					<img src="images/wordCloud.png" height="300" alt="" />
 					<img src="images/thamesSmall.png" height="300" alt="" />
 				</div>
 				
@@ -149,174 +149,43 @@
 					<section class="wrapper style3 container special">
 						<header class="major">
 							<h2>Latent Semantic Analysis</h2>
+							<h3>Using machine learning algorithms to link tweet <strong> content </strong> and real estate <strong> prices </strong> </h3>
 						</header>
-						<div class="row">
-							<div class="12u">
-								<section>
-									<header>
-										<h3>Using machine learning algorithms to link tweet <strong> content </strong> and real estate <strong> prices </strong> </h3>
-									</header>
-									<img src="images/SampleTweetMap.PNG" height="350px" alt="Sample Tweet Map"/>
-									<p>
-									Using an 8-core ubuntu virtual machine, we analyzed over <strong> 12,000,000 tweets </strong> in the greater london area. 
-								</p>
-								<p>
-									In this analysis, we focus on the 720,669 tweets with valid geographic information. 
-									By plotting tweets over london and combining them with real estate prices, we can visualize what people are thinking about where, and how it relates to the wealth of the neighborhood. 
-								</p>
-								</section>
-							</div>
-							</div>
-							<div class="row">
-							<div class="12u">
-								<section>
-									<header>
-										 Here , explore a small subset of the tweets we have on file! </br>
-										navigate the map by <strong> scrolling </strong>  </br>
-										<strong> click </strong> to see the content and date of the tweet
-
-									</header>
-									<iframe width="900px" height="700px" src ="http://dl.dropboxusercontent.com/u/33167749/tweetscomehome/index.html" > </iframe>								</section>
-							</div>
-						</div>
-					</section>
-				
-					
+						
 					<section class="wrapper style1 container special">
 						<div class="row">
 							<div class="4u">
 							
 								<section>
-									<img src="flag.jpg" alt="" height="42" width="42">
+									<img src="images/tweetcodes.png" alt="" width="450" height="350">
 									<header>
-										<h3>Participation</h3>
+										<h3>SETUP</h3>
 									</header>
-									<p>Has increased manufacturing growth led to increased participation by women?</p>
+									<p> We aggregate the tweet content over neighborhoods and then create a <strong>word-neighborhood matrix </strong>of terms</p>
+									<p> Then, we utilize cutting-edge gamma lasso regression techniques designed to deal with extremely sparse data </p>
 								</section>
 							
 							</div>
+							
+							<div class="1u">
+							<section>
+							<p> </p>
+							</section>
+							</div>
+							
 							<div class="4u">
 							
 								<section>
-									<img src="flag.jpg" alt="" height="42" width="42">
+									<img src="images/quickTrends.jpg" alt="" width="450" height="350" >
 									<header>
-										<h3>Type of Work</h3>
+										<h3>GAMMA LASSO</h3>
 									</header>
-									<p>What type of work are women involved in? How has it changed over time?</p>
+									<p>By allowing seperate coeffecients for each neighborhood, we can track and summarize the quintessential tweet vocabulary in each locale,
+									as well as use the sparse regression techniques to match tweet content with changes in housing prices </p> 
 								</section>
-							
 							</div>
-							<div class="4u">
-							
-								<section>
-									<!--<img src="man2010region.png" width="100%" height="100%" alt="" /> -->
-									<img src="flag.jpg" alt="" height="42" width="42">
-									<header>
-										<h3>Foreign Investment</h3>
-									</header>
-									<p>Does increased foreign investment lead to more opportunities for women in manufacturing?</p>
-								</section>
-							
-							</div>
-						</div>
 					</section>
 					
-				<!-- Three -->
-					<section class="wrapper style3 container special">
-					
-						<header class="major">
-							<h2>Visualizing <strong>change</strong></h2>
-						</header>
-						
-						<div class="row">
-							<div class="4u">
-							
-								<section>
-									<img src="firstgraph.png" width="100%" alt="" />
-									<header>
-										<h3>GROWTH</h3>
-									</header>
-									<p>Manufacturing has quadrupled in value since 2000.</p>
-								</section>
-
-							</div>
-							
-							<div class="4u">
-							
-								<section>
-									<img src="dasing.png" width="100%" alt="" />
-									<header>
-										<h3>FOREIGN INVESTMENT</h3>
-									</header>
-									<p>And foreign investment has recovered since the Asian crisis to 40%, weighted by output value</p>
-								</section>
-
-							</div>
-							<div class="4u">
-							
-								<section>
-									<img src="female_time.png" width="100%" alt="" />
-									<header>
-										<h3>FEMALE PARTICIPATION</h3>
-									</header>
-									<p>But the participation of women in the manufacturing sector has stagnated</p>
-								</section>
-
-							</div>
-						</div>
-						<div class="row">
-							<div class="12u">
-							
-								<section>
-									
-									<header>
-										<h3>INDUSTRIES</h3>
-									</header>
-									<p>Women are present in every type of Industry, but overrepresented in food and textiles and underrepresented in production of automobiles, precision equipment, and basic metals:</p>
-									<img src="females_bysector.png" alt="" />
-								</section>
-							</div>
-							</div>
-							<div class="row">
-							<div class="12u">
-							
-								<section>
-									
-									<header>
-										<h3>FIRM SIZE</h3>
-									</header>
-									<p>Most women work in small firms, with exception in only textiles and wood production:</p>
-									<img src="female_number.png" alt="" />
-
-
-									
-								</section>
-
-							</div>
-						</div>
-					</section>
-					
-				<!-- last one -->
-				<a id="Interactive">  </a>
-					<section class="wrapper style2 container special-alt">
-						<div class="row half">
-							<div class="12u">
-							
-								<header>
-								<h2> Interactive Graph</h2>
-								<p> We can use bubblecharts, in the style of Hans Rosling, to visualize the participation over time and across industries </p>
-
-								<iframe src = "https://dl.dropboxusercontent.com/u/33167749/tweetscomehome/index.html"> </iframe>
-								
-						<ul>
-						<li>select different variables in the pull-down menu </li>
-						<li>click on points to see information </li>
-						<li> create trails to focus on one industry through time </li>
-						</ul>
-						</p>
-								<footer>
-							</div>
-					</section>
 					
 			</article>
 
