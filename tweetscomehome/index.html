@@ -34,7 +34,7 @@
 				<!--<li class="current"><a href="index.html">Intro</a></li>-->
 				<li><a href="#mappingtweets">Mapping Tweets</a></li>
 				<li><a href="#houseprices">House Prices</a></li>
-				<li><a href="#Interactive">Interactive</a></li>
+				<li><a href="#LSA">Interactive</a></li>
 				<li><a href="#Credits">Credits</a></li>
 				</nav>
 			</header>
@@ -56,9 +56,9 @@
 					<br/>
 					An <strong>interactive </strong> data visualization of <br/> twitter activity and housing prices <br/> in London.
 					<br/> <br/> 
-					<img src="images/chicagoCab.jpg" height="300" alt="" />
-					<img src="images/twitterCodeLike.PNG" height="300" alt="" />
-					<img src="images/thames.jpg" height="300" alt="" />
+					<img src="images/chicagoCabSmall.png" height="300" alt="" />
+					<img src="images/twitterCodeLike.png" height="300" alt="" />
+					<img src="images/thamesSmall.png" height="300" alt="" />
 				</div>
 				
 			</section>
@@ -129,8 +129,6 @@
 						</div>
 					</section>
 				
-				
-				
 				<a id = "houseprices"> </a>
 					<section class="wrapper style2 container special-alt">
 						<div class="row half">
@@ -138,19 +136,51 @@
 							
 								<header>
 								<h2>Tweets &amp; House Prices</h2>
-								<p> Using publically available information on real estate transactions, we can then connect our </strong> tweets </strong> to characteristics of </strong>  house prices </strong> </p>
+								<p> Using publically available information on real estate transactions, we can then connect our <strong> tweets </strong> to characteristics of <strong>  housing prices </strong> </p>
+								<iframe  width ="700px" height ="600px" src = "https://dl.dropboxusercontent.com/u/33167749/tweetsBubble/bubbleChartTweets.html"> </iframe>
 								
 
 								
 								<footer>
 							</div>
 					</section>
+					
+					<a id="LSA"> </a> 
+					<section class="wrapper style3 container special">
+						<header class="major">
+							<h2>Latent Semantic Analysis</h2>
+						</header>
+						<div class="row">
+							<div class="12u">
+								<section>
+									<header>
+										<h3>Using machine learning algorithms to link tweet <strong> content </strong> and real estate <strong> prices </strong> </h3>
+									</header>
+									<img src="images/SampleTweetMap.PNG" height="350px" alt="Sample Tweet Map"/>
+									<p>
+									Using an 8-core ubuntu virtual machine, we analyzed over <strong> 12,000,000 tweets </strong> in the greater london area. 
+								</p>
+								<p>
+									In this analysis, we focus on the 720,669 tweets with valid geographic information. 
+									By plotting tweets over london and combining them with real estate prices, we can visualize what people are thinking about where, and how it relates to the wealth of the neighborhood. 
+								</p>
+								</section>
+							</div>
+							</div>
+							<div class="row">
+							<div class="12u">
+								<section>
+									<header>
+										 Here , explore a small subset of the tweets we have on file! </br>
+										navigate the map by <strong> scrolling </strong>  </br>
+										<strong> click </strong> to see the content and date of the tweet
+
+									</header>
+									<iframe width="900px" height="700px" src ="http://dl.dropboxusercontent.com/u/33167749/tweetscomehome/index.html" > </iframe>								</section>
+							</div>
+						</div>
+					</section>
 				
-				
-				
-				<header class="special container">
-					<h2> Focusing on neighbourhoods</h2></a>
-				</header>
 					
 					<section class="wrapper style1 container special">
 						<div class="row">
