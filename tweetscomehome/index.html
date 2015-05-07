@@ -1,0 +1,275 @@
+<!DOCTYPE HTML>
+<!--
+	Twenty 1.0 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>#tweetscomehome</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-noscript.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+	</head>
+	<body class="index loading">
+	
+		<!-- Header -->
+			<header id="header" class="alt">
+				<h1 id="logo">#tweetscomehome <a href="http://nelsonauner.com"><span>by nelson auner</span></a></h1>
+				<nav id="nav">
+				<ul>
+				<!--<li class="current"><a href="index.html">Intro</a></li>-->
+				<li><a href="#mappingtweets">Mapping Tweets</a></li>
+				<li><a href="#houseprices">House Prices</a></li>
+				<li><a href="#LSA">LSA</a></li>
+				<li><a href="#Credits">Credits</a></li>
+				</nav>
+			</header>
+
+		<!-- Banner -->		
+			<section id="banner">
+				
+				<!--
+					".inner" is set up as an inline-block so it automatically expands
+					in both directions to fit whatever's inside it. This means it won't
+					automatically wrap lines, so be sure to use line breaks where
+					appropriate (<br />).
+				-->
+				<div class="inner">
+					
+					<header>
+						<h2>#tweetscomehome</h2>
+					</header>
+					<br/>
+					An <strong>interactive </strong> data visualization of <br/> twitter activity and housing prices <br/> in London.
+					<br/> <br/> 
+					<img src="images/chicagoCabSmall.png" height="300" alt="" />
+					<img src="images/wordCloud.png" height="300" alt="" />
+					<img src="images/thamesSmall.png" height="300" alt="" />
+				</div>
+				
+			</section>
+		
+		<!-- Main -->
+			<article id="main">
+				<section id= "secone">
+				<header class="special container">
+					<!--<span class="icon fa-bar-chart-o"></span>-->
+					<h2>
+					<strong>Twitter activity </strong> can tell us about the city we call <strong> home </strong>
+					</h2>
+					<p>
+					It’s time we utilize technology to understand how and why people feel about where they live.
+					</p>
+				</header>
+				</section>
+					
+				<!-- One -->
+				<!--<a id="mappingtweets"></a>
+					<section class="wrapper style2 container special-alt">
+						<div class="row half">
+							<div class="12u">
+							
+								<header>
+									 <h2> Mapping Tweets </h2> 
+								</header>  
+								
+								<img src="images/SampleTweetMap.PNG" height="400" alt="Sample Tweet Map"/>
+								
+							</div>
+						</div>
+					</section> -->
+					
+					<a id="mappingtweets"> </a> 
+					<section class="wrapper style3 container special">
+						<header class="major">
+							<h2>Mapping <strong>tweets</strong></h2>
+						</header>
+						<div class="row">
+							<div class="12u">
+								<section>
+									<header>
+										<h3>every tweet is a story</h3>
+									</header>
+									<img src="images/SampleTweetMap.PNG" height="350px" alt="Sample Tweet Map"/>
+									<p>
+									Using an 8-core ubuntu virtual machine, we analyzed over <strong> 12,000,000 tweets </strong> in the greater london area. 
+								</p>
+								<p>
+									In this analysis, we focus on the 720,669 tweets with valid geographic information. 
+									By plotting tweets over london and combining them with real estate prices, we can visualize what people are thinking about where, and how it relates to the wealth of the neighborhood. 
+								</p>
+								</section>
+							</div>
+							</div>
+							<div class="row">
+							<div class="12u">
+								<section>
+									<header>
+										 Here , explore a small subset of the tweets we have on file! </br>
+										navigate the map by <strong> scrolling </strong>  </br>
+										<strong> click </strong> to see the content and date of the tweet
+
+									</header>
+									<iframe width="900px" height="700px" src ="http://dl.dropboxusercontent.com/u/33167749/tweetscomehome/index.html" > </iframe>								</section>
+							</div>
+						</div>
+					</section>
+				
+				<a id = "houseprices"> </a>
+					<section class="wrapper style2 container special-alt">
+						<div class="row half">
+							<div class="12u">
+							
+								<header>
+								<h2>Tweets &amp; House Prices</h2>
+								<p> Using publically available information on real estate transactions, we can then connect our <strong> tweets </strong> to characteristics of <strong>  housing prices </strong> </p>
+								<iframe  width ="700px" height ="600px" src = "https://dl.dropboxusercontent.com/u/33167749/tweetsBubble/bubbleChartTweets.html"> </iframe>
+								
+
+								
+								<footer>
+							</div>
+					</section>
+					
+					<a id="LSA"> </a> 
+					<section class="wrapper style3 container special">
+						<header class="major">
+							<h2>Latent Semantic Analysis</h2>
+							<h3>Using machine learning algorithms to link tweet <strong> content </strong> and real estate <strong> prices </strong> </h3>
+						</header>
+						
+					<section class="wrapper style1 container special">
+						<div class="row">
+							<div class="4u">
+							
+								<section>
+									<img src="images/tweetcodes.png" alt="" width="450" height="350">
+									<header>
+										<h3>SETUP</h3>
+									</header>
+									<p> We aggregate the tweet content over neighborhoods and then create a <strong>word-neighborhood matrix </strong>of terms</p>
+									<p> Then, we utilize cutting-edge gamma lasso regression techniques designed to deal with extremely sparse data </p>
+								</section>
+							
+							</div>
+							
+							<div class="1u">
+							<section>
+							<p> </p>
+							</section>
+							</div>
+							
+							<div class="4u">
+							
+								<section>
+									<img src="images/quickTrends.jpg" alt="" width="450" height="350" >
+									<header>
+										<h3>GAMMA LASSO</h3>
+									</header>
+									<p>By allowing seperate coeffecients for each neighborhood, we can track and summarize the quintessential tweet vocabulary in each locale,
+									as well as use the sparse regression techniques to match tweet content with changes in housing prices </p> 
+								</section>
+							</div>
+							<div class="row">
+							<div class="4u">
+							
+								<section>
+									<img src="images/penalization.jpg" alt="" width="450" >
+									<header>
+										<h3>RESULTS</h3>
+									</header>
+									<p> We use <stron> sufficient reduction projection </strong>to map tweet semantics back on to changes in <strong>real estate prices </strong>.
+									<p> The below list is the top ten words associated with increases in housing prices:
+										<ul>
+										<li>instead</li>
+										<li>bridg </li>    
+										<li>victoria </li>    
+										<li>greater</li>
+										<li>underground </li>
+										<li>london  </li>    
+										<li>theatre </li>      
+										<li>health</li>       
+										<li>tower</li>      
+										<li>garden</li> 
+										</ul>
+										</p>
+								</section>
+							
+							</div>
+							
+							<div class="1u">
+							<section>
+							<p> </p>
+							</section>
+							</div>
+							
+							<div class="4u">
+							
+								<section>
+									<img src="images/fitted.jpg" alt="" width="450" >
+									<header>
+										<h3>LOOKING FORWARD</h3>
+									</header>
+									<p>We see that tweets do have some predictive power to predict real estate prices</p>
+									<p>More tweet data, and more accurate real estate prices would lead to even more powerful inference </p>
+								</section>
+							</div>
+					</section>
+					
+					
+			</article>
+
+		<!-- CTA -->
+			<section id="cta">
+			
+				<header>
+					<a id="Credits"> <h2>You've reached the <strong>end</strong></h2> </a>
+					<p>Thank you for reading</p>
+				</header>
+				<footer>
+					<ul class="buttons">
+						<li><a href="http://summerdatachallenge.com/" class="button">summerdatachallenge</a></li>
+						<li><a href="http://nelsonauner.com" class="button">nelson auner</a></li>
+						<li><a href="http://arxiv.org/abs/1308.5623" class="button">Gamma Lasso</a></li>
+						<li><a href="" class="button"> Back to Top </a> </li>
+					</ul>
+				</footer>
+			
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+			
+				<span class="copyright">&copy; Nelson Auner. All rights reserved. Data: <a href="http://summerdatachallenge.com/"> summerdatachallenge </a>   Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
+			
+			</footer>
+
+	</body>
+</html>
+
+	</body>
+	<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-46825538-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
+ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+</html>

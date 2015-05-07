@@ -10,26 +10,42 @@ body
 	padding-bottom: 15px;
 }
 
+
 #container
 {
-	margin:          0 auto;
+	margin:          auto;
 	padding-top:20px;
-	width:           683px;
+	width:           800px;
 	position:        relative;
 	background-color:  #333;
 }
 
+#container .image-container {
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+	font-family:     Times;
+	font-size:       30px;
+	color:           #FFF;
+	top:             210px;
+	left:            12px;
+}
+
+
 #header
 {
-	margin:          0 auto;
-	width:           640px;
+	margin:          auto;
+	width:           725px;
 	height:          250px;
 	background:      transparent url('/images/header.jpg') top left no-repeat;
 }
 
+
+
+
 .headtitle
 {
-	position:        relative;
+	position:        bottom-left;
 	font-family:     Times;
 	font-size:       30px;
 	color:           #FFF;
@@ -81,17 +97,17 @@ body
 #content
 {
 	min-height:      390px;
-	width:           640px;
-	margin:          0 auto;
+	width:           725x;
+	margin:          5px;
 	background-color:#FDFDFD;
 }
 
 #insidecontent
 {
 	float:           left;
-	padding-left:    25px;
-	padding-right:    25px;
-	width:           auto;
+	padding-left:    5px;
+	padding-right:    5px;
+	width:           750;
 	margin:          0;
 	color:           #767676;
 	font-family: Helvetica, serif;
@@ -155,7 +171,7 @@ h3
 #footer
 {
 	margin:          0 auto;
-	width:           641px;
+	width:           700px;
 	height:          39px;
 
 }
