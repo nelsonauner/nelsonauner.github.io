@@ -4,7 +4,7 @@ subtitle: ""
 picture: ""
 pwidth: ""
 pheight: ""
-long: "T"
+long: "F"
 showpic: "F"
 categories: data
 
