@@ -73,7 +73,7 @@ site, also some variance components...
     xyplot(harvwt ~ site, pch = 16, col = "blue",data=ant111b)
 
 ![plot of chunk
-ant111b]("images/2015-05-06-random-or-fixed_files/figure-markdown_strict/ant111b.png")
+ant111b]("/images/2015-05-06-random-or-fixed_files/figure-markdown_strict/ant111b.png")
 
     # still not clear why FE is a bad idea
     corn1.lmer = lmer(harvwt ~ 1 + (1 | site),data=ant111b)
@@ -104,7 +104,7 @@ Always check residuals!
     plot(fitted(corn1.lmer), residuals(corn1.lmer))
 
 ![plot of chunk
-ant11b\_residuals](images/2015-05-06-random-or-fixed_files/figure-markdown_strict/ant11b_residuals.png)
+ant11b\_residuals]("/images/2015-05-06-random-or-fixed_files/figure-markdown_strict/ant11b_residuals.png")
 So here's one difference--the fitted values are not the sample means (as
 in FE), but rather shrinkage estimates.
 
