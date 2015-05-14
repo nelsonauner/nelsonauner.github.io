@@ -1,0 +1,74 @@
+---
+title: "FE vs RE"
+author: Nelson Auner
+date: May 6 2015
+output: md_document
+---
+
+Test for whether you should use fixed or random effects
+========================================================
+
+I've been thinking about random effects this week. I don't think many people in business use them and I'm not sure if there's a good reason for this. One explanation is that fixed effects are common in introductory statistics and econometrics classes, so many people doing "data" work have not heard of them. A second explanation might be that the craze around machine learning has encouraged people to hack at data without much regard to the underlying statistical processes.  
+
+My thought here is to try both on a couple of different data sets to understand the difference!
+
+## 1 - Corn Sites
+from http://www.stat.wisc.edu/courses/st572-larget/Spring2007/handouts13-2.pdf
+
+Random effect assumes
+
+- $y_{ij} = \mu + a_i + e_{ij}, j=1,...,n, i=1,...,k$
+
+- $a_i \sim N(0,\sigma_a^2)$
+
+- $e_i \sim N(0,\sigma_e^2)$
+
+
+
+```{r setup, message=FALSE,warning=FALSE,results='hide'}
+# thanks dirk
+local({r <- getOption("repos")
+       r["CRAN"] <- "http://cran.r-project.org" 
+       options(repos=r)
+})
+
+#install.packages("dplyr")
+library(dplyr)
+#install.packages("lme4")
+library(lme4)
+
+#install.packages("DAAG")
+library(DAAG)
+
+
+```
+
+So, here is what the data looks like. We observe *harvwt* clustered by site, also some variance components...
+
+```{r ant111b}
+str(ant111b)
+xyplot(harvwt ~ site, pch = 16, col = "blue",data=ant111b)
+# still not clear why FE is a bad idea
+corn1.lmer = lmer(harvwt ~ 1 + (1 | site),data=ant111b)
+summary(corn1.lmer)
+```
+Always check residuals!
+```{r ant11b_residuals}
+plot(fitted(corn1.lmer), residuals(corn1.lmer))
+```
+So here's one difference--the fitted values are not the sample means (as in FE), but rather shrinkage estimates. 
+
+```{r ant11b_shrinkage}
+with(ant111b, {
+  means = sapply(split(harvwt, site), mean)
+  siteFit = sapply(split(fitted(corn1.lmer), site), mean)
+  data.frame(mean = means, fitted = siteFit)
+})
+# means
+# returns error since 'with' command keeps objects in temporary namespace (pretty cool)
+with(ant111b, {
+corn1.aov = aov(harvwt ~ Error(site))
+summary(corn1.aov)
+})
+```
+
