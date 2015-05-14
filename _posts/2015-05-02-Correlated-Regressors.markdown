@@ -83,7 +83,7 @@ hypothesis in which *V*2 does contain information
     with(sampleData,
          plot(Y,V1))
 
-![]("/images/createSampleData-2.png")
+![]("nelsonauner.com/images/createSampleData-2.png")
 
 Inspecting the linear models, you'd probably be surprised to see
 
