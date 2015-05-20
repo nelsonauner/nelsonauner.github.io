@@ -198,14 +198,17 @@ There were a couple of goals in making this code base:
     answering this question
 
 
+
+
+
     singleSimulation <- function(corr,true_effect,n_obs) {
-      #input: corr: number s.t. 0 < corr< 1, true_effect any number, n_obs any integer > 0  
-      #output: a list with two linear models
-      data <- simulateData(V2coef = true_effect,corr = corr,n=n_obs)
-      res <- list()
-      res$model_null <- lm(Y~V1 + V2_null,data=data)
-      res$model_alt <- lm(Y~V1 + V2_alt,data=data)
-      return(res)
+    #input: corr: number s.t. 0 < corr< 1, true_effect any number, n_obs any integer > 0  
+    #output: a list with two linear models
+    data <- simulateData(V2coef = true_effect,corr = corr,n=n_obs)
+    res <- list()
+    res$model_null <- lm(Y~V1 + V2_null,data=data)
+    res$model_alt <- lm(Y~V1 + V2_alt,data=data)
+    return(res)
     }
 
     returnCoeffecients <- function(linear_model) {
