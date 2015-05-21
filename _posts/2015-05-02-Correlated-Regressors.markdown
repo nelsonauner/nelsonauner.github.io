@@ -9,8 +9,9 @@ categories: R
 long: "T"
 categories: data
 ---
+
 Searching for significance in correlated variables
---------------------------------------------------
+==================================================
 
 Business problem: A manager suspects that a given variable
 *V*<sub>2</sub> is significantly predictive of a *Y*, but
@@ -32,20 +33,19 @@ Some things to consider:
 4.  How can we measure results in terms of false postives vs. false
     negatives?
 
-* * * * *
 
 Setup
 -----
 
 Let's use the following setup to test
-[*V*<sub>1</sub>, *V*<sub>2</sub>] ~ *N*(*�*, S)
+[*V*<sub>1</sub>, *V*<sub>2</sub>] ∼ *N*(*μ*, Σ)
 
-With *c**o**v*(*V*<sub>1</sub>, *V*<sub>2</sub>) = .9,
-*v**a**r*(*V*<sub>1</sub>) = *v**a**r*(*V*<sub>2</sub>) = 1
+With *c**o**v*(*V*<sub>1</sub>, *V*<sub>2</sub>) = .9,
+*v**a**r*(*V*<sub>1</sub>) = *v**a**r*(*V*<sub>2</sub>) = 1
 
-Let *V*<sub>3</sub> ~ *N*(*V*<sub>2</sub>, .5)
+Let *V*<sub>3</sub> ∼ *N*(*V*<sub>2</sub>, .5)
 
-*Y* ~ *N*(*V*<sub>1</sub> + *V*<sub>2</sub>, 1)
+*Y* ∼ *N*(*V*<sub>1</sub> + *V*<sub>2</sub>, 1)
 
 ### Approach:
 
@@ -80,7 +80,7 @@ We simulate data using the mathematical setup described above.
          plot(sampleData[c("Y","V1","V2_alt","V2_null")])
          )
 
-![](http://nelsonauner.com/images/correlationMatrix.png)
+![plot](http://nelsonauner.com/images/correlationMatrix.png)
 
 So, from the plot, we see that positive relationships between outcome
 *Y*, the standard business metric *V*1, as well as between *Y* and the
@@ -197,18 +197,18 @@ There were a couple of goals in making this code base:
 3.  Prepare a framework that I (or other people) can build off of for
     answering this question
 
-<!-- -->
 
-<div class="highlight"><pre><code class="language-text" data-lang="text">
+
+
 
     singleSimulation <- function(corr,true_effect,n_obs) {
-      #input: corr: number s.t. 0 < corr< 1, true_effect any number, n_obs any integer > 0  
-      #output: a list with two linear models
-      data <- simulateData(V2coef = true_effect,corr = corr,n=n_obs)
-      res <- list()
-      res$model_null <- lm(Y~V1 + V2_null,data=data)
-      res$model_alt <- lm(Y~V1 + V2_alt,data=data)
-      return(res)
+    #input: corr: number s.t. 0 < corr< 1, true_effect any number, n_obs any integer > 0  
+    #output: a list with two linear models
+    data <- simulateData(V2coef = true_effect,corr = corr,n=n_obs)
+    res <- list()
+    res$model_null <- lm(Y~V1 + V2_null,data=data)
+    res$model_alt <- lm(Y~V1 + V2_alt,data=data)
+    return(res)
     }
 
     returnCoeffecients <- function(linear_model) {
@@ -293,10 +293,6 @@ There were a couple of goals in making this code base:
     # head(sim_res)
     save(sim_res,file="heatmap.RData")
 
-    </code></pre></div>
-
-
-
 Finally, we put everything together into a heatmap that visualizes our
 error metric in terms of the correlation between *V*1 and *V*2, and the
 true value of *V*2.
@@ -320,4 +316,5 @@ care about is a variable significant or not)
              scale_fill_gradient2(midpoint=0, low="#B2182B", high="#2166AC") + 
       ggtitle("Error Rate of coeffecient inference on V2 by looking at p values")
 
-![](http://nelsonauner.com/images/heatmap.png)
+![heatmap](http://nelsonauner.com/images/heatmap.png)
+
