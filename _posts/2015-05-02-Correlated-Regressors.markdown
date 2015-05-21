@@ -199,6 +199,8 @@ There were a couple of goals in making this code base:
 
 <!-- -->
 
+<div class="highlight"><pre><code class="language-text" data-lang="text">
+
     singleSimulation <- function(corr,true_effect,n_obs) {
       #input: corr: number s.t. 0 < corr< 1, true_effect any number, n_obs any integer > 0  
       #output: a list with two linear models
@@ -290,6 +292,10 @@ There were a couple of goals in making this code base:
     sim_res <- createHeatMap(res,lossFunction=binaryClassification)
     # head(sim_res)
     save(sim_res,file="heatmap.RData")
+
+    </code></pre></div>
+
+
 
 Finally, we put everything together into a heatmap that visualizes our
 error metric in terms of the correlation between *V*1 and *V*2, and the
