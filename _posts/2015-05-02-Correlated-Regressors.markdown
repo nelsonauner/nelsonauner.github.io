@@ -3,8 +3,8 @@ layout: post
 title:  "Correlated Regressors and R Markdown"
 subtitle: ""
 picture: "/images/heatmap.png"
-pwidth: "250"
-pheight: "200"
+pwidth: "400"
+pheight: ""
 categories: R
 long: "T"
 categories: data
