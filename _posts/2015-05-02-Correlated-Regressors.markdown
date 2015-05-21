@@ -2,7 +2,7 @@
 layout: post
 title:  "Correlated Regressors and R Markdown"
 subtitle: ""
-picture: "/images/createSampleData-2.png"
+picture: "/images/heatmap.png"
 pwidth: "250"
 pheight: "200"
 categories: R
@@ -188,19 +188,6 @@ Investigation through Simulation
 The following code builds a framework to simulate datasets and test
 different decision criteria with custom loss functions.
 
-There were a couple of goals in making this code base:
-
-1.  Improve my ability to structure an analysis pipeline
-
-2.  Build out an example of inference via simulation
-
-3.  Prepare a framework that I (or other people) can build off of for
-    answering this question
-
-
-
-
-
     singleSimulation <- function(corr,true_effect,n_obs) {
     #input: corr: number s.t. 0 < corr< 1, true_effect any number, n_obs any integer > 0  
     #output: a list with two linear models
@@ -226,7 +213,8 @@ There were a couple of goals in making this code base:
       return(temp)
     }
 
-    testMethod <- function(significantMethod=returnCoeffecients, corr=seq(0,.95,by=.05),true_effect=(1:10), n_obs=20,n_sim=50) {
+    testMethod <- function(significantMethod=returnCoeffecients,
+      corr=seq(0,.95,by=.05),true_effect=(1:10), n_obs=20,n_sim=50) {
       #input: significantMethod function
       #corr: numeric vector correlation of the two variables
       #true_effect: numeric vector of true effects to measure.
@@ -244,7 +232,9 @@ There were a couple of goals in making this code base:
                 x["true_effect"],
                 x["n_obs"],
                 x["n_sim"],
-                singleSimulation(corr=x["corr"],true_effect=x["true_effect"] , n_obs = x["n_obs"]) %>% #returns list of two
+                singleSimulation(corr=x["corr"],
+                    true_effect=x["true_effect"],
+                    n_obs = x["n_obs"]) %>%
                 sapply(.,significantMethod)
                 ) %>%
               #pull coef of interest from both regressions
@@ -293,6 +283,8 @@ There were a couple of goals in making this code base:
     # head(sim_res)
     save(sim_res,file="heatmap.RData")
 
+
+
 Finally, we put everything together into a heatmap that visualizes our
 error metric in terms of the correlation between *V*1 and *V*2, and the
 true value of *V*2.
@@ -302,8 +294,8 @@ negative rate**. Higher values are bad.
 
 Lesson: be careful with correlated regressors!
 
-Possible solutions: -
-[PCA](https://tgmstat.wordpress.com/2013/11/28/computing-and-visualizing-pca-in-r/)
+Possible solutions: 
+- [PCA](https://tgmstat.wordpress.com/2013/11/28/computing-and-visualizing-pca-in-r/)
 - [ANOVA](http://vassarstats.net/textbook/ch13pt1.html) (if you only
 care about is a variable significant or not)
 
