@@ -16,12 +16,18 @@ A chapter from Deepak Malhotra and Max H. Bazerman's *Negotiation
 Genius* provides the following challenge:
 
 Company T is about to make a discovery that will result in their stock
-price being a random number between \$0 and \$100. As CEO of Company A,
-you know that purchasing Company A will be worth, due to synergies, 150%
-of its stock price. (If the Company T is \$80/share, it is worth
-\$120/share to you)
+price being a random number between $0 and $100. 
 
-You would like to make an offer to acquire Company T. The trick is that
+As CEO of Company A,
+you know that purchasing Company A will be worth, due to synergies, 150%
+of its stock price.
+
+ (If the Company T is $80/share, it is worth
+$120/share to you)
+
+You would like to make an offer to acquire Company T. 
+
+The trick is that
 you have to make your bid *before* the discovery takes place, but
 Company T will decide to accept your offer or not *after* the discovery.
 
@@ -30,7 +36,9 @@ How much should you bid to take over Company T?
 (Try to answer this now, before reading on!)
 
 According to the book, the vast majority of MBA students get this
-question wrong. I thought it was an interesting statistical problem, and
+question wrong.
+
+ I thought it was an interesting statistical problem, and
 analyze both mathematically, and via a simulation.
 
 Simulation
@@ -39,7 +47,11 @@ Simulation
     # Simulating the challenge from Negotiation Genius
     library(dplyr)
     set.seed(5000) #suite
-    bidToAcquireCompany <- function(n_sim = 30, min_val = 0, max_val = 100,offer_val = 60,valueAdd=1.5) {
+    bidToAcquireCompany <- function(n_sim = 30, 
+                                    min_val = 0,
+                                    max_val = 100,
+                                    offer_val = 60,
+                                    valueAdd=1.5) {
       # input: 
       #     n_sim: number of simulations to run
       #     min_val: minimum possible outcome of surprise
@@ -66,7 +78,11 @@ Simulation
 
     library(ggplot2)
 
-    p <- ggplot(data=simulation_results,aes(x=factor(offer),y=profit)) + xlab("$ offer for Company A, per share") + ylab("profit from proposed offer") + ggtitle("Profit from bidding to acquire Company T")
+    p <- ggplot(data=simulation_results,
+                  aes(x=factor(offer),y=profit)) +
+           xlab("$ offer for Company A, per share") + 
+           ylab("profit from proposed offer") + 
+           ggtitle("Profit from bidding to acquire Company T")
      
     p + geom_boxplot(width=.5) 
 
