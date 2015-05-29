@@ -12,10 +12,7 @@ categories: data
 Negotiation Genius
 ==================
 
- <script type="text/javascript"
-  src="http://www.maths.nottingham.ac.uk/personal/drw/LaTeXMathML.js">
-  </script>
-
+ 
 A chapter from Deepak Malhotra and Max H. Bazerman's *Negotiation
 Genius* provides the following challenge:
 
