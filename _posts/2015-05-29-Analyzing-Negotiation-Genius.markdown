@@ -3,7 +3,7 @@ layout: post
 title:  "Analyzing Negotiation Genius"
 subtitle: ""
 picture: "/images/negotiation_math.png"
-pwidth: "400"
+pwidth: "200"
 pheight: ""
 categories: R
 long: "T"
@@ -11,6 +11,10 @@ categories: data
 ---
 Negotiation Genius
 ==================
+
+ <script type="text/javascript"
+  src="http://www.maths.nottingham.ac.uk/personal/drw/LaTeXMathML.js">
+  </script>
 
 A chapter from Deepak Malhotra and Max H. Bazerman's *Negotiation
 Genius* provides the following challenge:
