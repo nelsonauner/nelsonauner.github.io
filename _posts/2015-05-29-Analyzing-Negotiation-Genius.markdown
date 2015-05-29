@@ -81,11 +81,10 @@ Simulation
     library(ggplot2)
 
     p <- ggplot(data=simulation_results,
-                  aes(x=factor(offer),y=profit)) +
+                aes(x=factor(offer),y=profit)) +
            xlab("$ offer for Company A, per share") + 
            ylab("profit from proposed offer") + 
            ggtitle("Profit from bidding to acquire Company T")
-     
      
     p + geom_boxplot(width=.5) 
 
@@ -95,31 +94,18 @@ Math Solution
 -------------
 
 I'll use the default parameter values here, can be easily be abstracted
-
-*T* ∼ *U*(0, 100)
-
-We note that
-
-*P* = 1.5 \* *T* − *o**f**f**e**r*  
-if *T* \< *o**f**f**e**r*
-
-and
-
-*P* = 0 if *T* \> *o**f**f**e**r*
-
-Calculate expected value:
-
-*E*(*P*) = 1.5 \* *E*(*T*∣*T* \< *o**f**f**e**r*) \* *P*(*T* \< *o**f**f**e**r*) + 0 \* *P*(*T* \> *o**f**f**e**r*)
-
-*E*(*P*) = 1.5 \* *E*(*T*ʹ) \* *P*(*T* \< *o**f**f**e**r*)
-
-where *T*ʹ ∼ *U*(0, *o**f**f**e**r*)
-
-\$E(P) = ( \\frac{3}{2} \* \\frac{offer}{2} - offer) \* \\frac{offer}{100}\$
-
-\$E(P) = ( \\frac{3}{4} - 1 ) \* \\frac{offer\^2}{100}\$
-
-\$E(P) = - \\frac{offer\^2}{400}\$
+<p><span class="math">\(T \sim U(0,100)\)</span></p>
+<p>We note that</p>
+<p><span class="math">\(P = 1.5*T - offer\)</span><br />if <span class="math">\(T &lt; offer\)</span></p>
+<p>and</p>
+<p><span class="math">\(P = 0\)</span> if <span class="math">\(T &gt; offer\)</span></p>
+<p>Calculate expected value:</p>
+<p><span class="math">\(E(P) = 1.5* E(T | T &lt; offer) * P(T &lt; offer) + 0 * P(T &gt; offer)\)</span></p>
+<p><span class="math">\(E(P) = 1.5* E(T') * P(T&lt;offer)\)</span></p>
+<p>where <span class="math">\(T' \sim U(0,offer)\)</span></p>
+<p><span class="math">\(E(P) = ( \frac{3}{2} * \frac{offer}{2} - offer) * \frac{offer}{100}\)</span></p>
+<p><span class="math">\(E(P) = ( \frac{3}{4} - 1 ) * \frac{offer^2}{100}\)</span></p>
+<p><span class="math">\(E(P) = - \frac{offer^2}{400}\)</span></p>
 
 We'll calculate this line and draw it in.
 
@@ -136,3 +122,15 @@ Not bad!
 
 If I have more time, I'll figure out *V**a**r*(*P*(*o**f**f**e**r*)) as
 well!
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
