@@ -12,6 +12,10 @@ categories: data
 Negotiation Genius
 ==================
 
+<script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
  
 A chapter from Deepak Malhotra and Max H. Bazerman's *Negotiation
 Genius* provides the following challenge:
@@ -122,15 +126,3 @@ Not bad!
 
 If I have more time, I'll figure out *V**a**r*(*P*(*o**f**f**e**r*)) as
 well!
-
-
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
-
