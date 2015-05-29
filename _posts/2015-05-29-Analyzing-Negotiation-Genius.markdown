@@ -33,6 +33,7 @@ You would like to make an offer to acquire Company T.
 
 The trick is that
 you have to make your bid *before* the discovery takes place, but
+
 Company T will decide to accept your offer or not *after* the discovery.
 
 How much should you bid to take over Company T?
@@ -87,6 +88,7 @@ Simulation
            xlab("$ offer for Company A, per share") + 
            ylab("profit from proposed offer") + 
            ggtitle("Profit from bidding to acquire Company T")
+     
      
     p + geom_boxplot(width=.5) 
 
