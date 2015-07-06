@@ -2,7 +2,7 @@
 layout: post
 title:  "Analyzing Negotiation Genius"
 subtitle: ""
-picture: "/images/negotiation_math.png"
+picture: "/images/negotiation_math_small.png"
 pwidth: "200"
 pheight: ""
 categories: R
