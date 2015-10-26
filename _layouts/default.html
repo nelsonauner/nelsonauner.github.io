@@ -3,96 +3,106 @@
 
 
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-<head>
-<title> {% if page.title %} {{ page.title }} | {% endif %} Nelson Auner - Tech, Travels &amp; Data </title>
- <meta name="keywords" content="Nelson Auner, Economics, Korea, Research, Madison, Wisconsin, University of Chicago, CLS, NSLI-Y, uchicago" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="robots" content="index, follow" />
-<meta name="viewport" content="width=device-width">
-<meta name="description" content="Travels, Tech &amp; Data"/>
-<meta name="author" content="Nelson Auner" />
-<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.R.xml">
-<link rel="author" href="https://plus.google.com/+NelsonAuner" />
-<link rel="stylesheet" href="/css/syntax.css"/>
-<link rel="stylesheet" href="/css/main.css" />  <!--type="text/css" media="screen" -->
-</head>
-<body>
- <!--   <div id="fb-root"></div>
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          appId      : '590782704348851',
-          status     : true,
-          xfbml      : true
-        });
-      };
+	<head>
+		<title> {% if page.title %} {{ page.title }} | {% endif %} Nelson Auner - Tech, Travels &amp; Data </title>
+		<meta name="keywords" content="Nelson Auner, Economics, Korea, Research, Madison, Wisconsin, University of Chicago, CLS, NSLI-Y, uchicago" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="robots" content="index, follow" />
+		<meta name="viewport" content="width=device-width">
+		<meta name="description" content="Travels, Tech &amp; Data"/>
+		<meta name="author" content="Nelson Auner" />
+		<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.R.xml">
+		<link rel="stylesheet" href="/css/main.css" />
+		<link href="https://gitcdn.github.io/bootstrap-toggle/2.2.0/css/bootstrap-toggle.min.css" rel="stylesheet">
+		<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet">
+	</head>
+	<style>
+#header {
+	padding:50px;
+	text-align:center;
+	font-size:22px;
+}
+	.label-icon {
+		background-color:black;
+		font-family: Helvetica-Neue, Helvetica, Arial
+		padding-top: 0.2em;
+		color:white;
+		padding-right: 0.6em;
+		padding-bottom: 0.3em;
+		padding-left: 0.6em;
+		font-size:75%;
+		display:inline;
+		text-align:center;
+		white-space: nowrap;
+		vertical-align: baseline;
+		border:
 
-      (function(d, s, id){
-         var js, fjs = d.getElementsByTagName(s)[0];
-         if (d.getElementById(id)) {return;}
-         js = d.createElement(s); js.id = id;
-         js.src = "//connect.facebook.net/en_US/all.js";
-         fjs.parentNode.insertBefore(js, fjs);
-       }(document, 'script', 'facebook-jssdk'));
-    </script>
-    <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=590782704348851";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
--->
+	}
+	</style>
+
+	<body>
+
+		<div class="container">
+			<div id="header">
+				<a class="label-icon" data-toggle="tooltip"  href="nelsonauner.com">Nelson Auner</a>
+				<a class="label-icon" data-toggle="tooltip" data-title="Posts" href="/posts.html">posts</a>
+				<a class="label-icon" data-toggle="tooltip" data-title="Research" href="/CV.html">research</a>
+				<a class="label-icon" data-toggle="tooltip" data-title="Race Schedule" href="/raceschedule.html">running</a>
+				<a class="label-icon" data-toggle="tooltip" data-title="Github" href="https://github.com/nelsonauner">github</a>
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+		</nav>
 
 
-<div id="container"> 
-
-  <div id="header">
-    <div class="headtitle">NELSON AUNER</div>
-  </div>
-  <div id="menu"> 
-    <ul>
-     <li><a href="/">HOME</a></li> 
-      <li><a href="/CV.html">RESEARCH</a></li>
-   <li><a href="/posts.html">POSTS</a></li>
-   <li><a href="/blogroll.html">BLOGROLL</a></li>
-    </ul>
-  </div>
-  <div id="content"> 
-    <div id="insidecontent"> <br>
-      {{ content }} 
-    <br><br>
-    </p>
-<!--<div class="fb-comments" data-href="http://nelsonauner.com" data-numposts="5" data-colorscheme="light"></div> -->
-    </div>
-    <div style="clear: both;"></div>
-  </div>
+		<div class ="container content" id="content"> 
+			<div id="insidecontent"> 
+				{{ content }} 
+			</div>
+			<div style="clear: both;"></div>
+		</div>
 
 
 
-  <div id="footer"> <span>Copyright © 2014 by Nelson Auner| Thanks for reading. <a rel="author" href="https://plus.google.com/u/0/+NelsonAuner?rel=author">Google+</a> </span> 
-  </div>
+		<div class="navbar navbar-default navbar-fixed-bottom">
+			<div class="container">
+				<p> &#169; Nelson Auner <span id="footer-year">  </span>
+			</div>
 
-</div>
-</body>
-<!--<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-46825538-1', 'nelsonauner.com');
-  ga('send', 'pageview');
-</script> -->
-<script type="text/javascript">
+		</div>
+
+
+
+	</body>
+	<script type="text/javascript">
 var _gaq = _gaq || [];
 _gaq.push(['_setAccount', 'UA-46825538-1']);
 _gaq.push(['_trackPageview']);
 (function() {
-var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
-ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
-var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
+	ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 })();
-</script>
+	</script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.0/js/bootstrap-toggle.min.js"></script>
+	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+
+	<script>
+$(function() {
+	$('#about-me-toggle').bootstrapToggle({
+		on: 'More about me',
+		off: 'Less about me'
+	});
+})
+$("#about-me-toggle").change(function(){
+	$("#more-about-me").slideToggle(500)
+});
+$("#footer-year").text(new Date().getFullYear());
+	</script>
 </html>

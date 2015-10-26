@@ -2,7 +2,7 @@
 layout: post
 subtitle: ""
 picture: "images/2015-05-06-random-or-fixed_files/figure-markdown_strict/ant111b.png"
-pwidth: "200"
+pwidth: "500"
 pheight: "200"
 long: "T"
 showpic: "F"

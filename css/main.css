@@ -1,253 +1,41 @@
-body
-{
-	background:#000 url(images/background.jpg) bottom right no-repeat;
-	font-size:       12px; 
-	margin:          0;
-	padding:         5px;
-	background-color: #000;
-	color:#898989;
-	font-family: Garamond, Didot, Perpetua, Arial, Helvetica, serif;
-	padding-bottom: 15px;
+body {
+  font-family: 'Merriweather', sans-serif;
 }
-
-
-#container
-{
-	margin:          auto;
-	padding-top:20px;
-	width:           800px;
-	position:        relative;
-	background-color:  #333;
+.hero_img {
+  height: 230px;
+  background-color: #fff;
 }
-
-#container .image-container {
-	text-align: center;
-	vertical-align: middle;
-	display: table-cell;
-	font-family:     Times;
-	font-size:       30px;
-	color:           #FFF;
-	top:             210px;
-	left:            12px;
+h2 {
+  opacity: 0.4;
+  margin-top: 40px;
+  line-height: 1.5;
 }
-
-
-#header
-{
-	margin:          auto;
-	width:           725px;
-	height:          250px;
-	background:      transparent url('/images/header.jpg') top left no-repeat;
+.oneliner {
+  opacity: 0.35;
+  line-height: 1.5;
 }
-
-
-
-
-.headtitle
-{
-	position:        bottom-left;
-	font-family:     Times;
-	font-size:       30px;
-	color:           #FFF;
-	top:             210px;
-	left:            12px;
+.indent {
+  margin-left: 40px;
+  width: 460px;
 }
-
-#menu
-{
-	margin:          0 20px;
-	height:          29px;
-	padding:         5px 0;
-	font-size:	1.1em;
-
+svg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-#menu ul
-{
-	margin:          0;
-	padding:         7px;
-
-	height:          29px;
+.navbar-white {
+  background-color: #fff;
 }
-
-#menu ul li
-{
-	list-style:      none;
-	display:         inline;
+.navbar-header,
+a {
+  color: #000;
+  cursor: pointer;
 }
-
-#menu ul li a:link, #menu ul li a:active, #menu ul li a:visited
-{
-	color:           #0BC202;	
-	padding:         10px 7px 10px 7px;
-	font-size:       1em;
-
-	font-family:     'lucida grande', arial, sans-serif;
-	font-weight:     bold;
-	text-decoration: none;
+.navbar-collapse a {
+  font-size: 13px;
+  color: #808080;
 }
-
-#menu ul li a:hover
-{
-	background-color:   #6A7919;
-	color:           #FDFDFD;
-}
-
-
-#content
-{
-	min-height:      390px;
-	width:           725x;
-	margin:          5px;
-	background-color:#FDFDFD;
-}
-
-#insidecontent
-{
-	background-color:#FDFDFD;
-	float:           left;
-	padding-left:    5px;
-	padding-right:    5px;
-	width:           750;
-	margin:          0;
-	color:           #767676;
-	font-family: Helvetica, serif;
-	font-size:       1.1em;
-	line-height:     135%;
-}
-
-h1, h2, h3{
-padding:3px;
-color:#898989;
-}
-
-a{
-color:#0BC202;
-text-decoration:none;
-}
-
-
-h1{
-font-size:1.5em;
-}
-
-h2{
-font-size:1.05em;
-}
-
-h3{
-font-size:1em;
-}
-
-/* 
-h1
-{
-	margin:          0;
-	font-weight:     normal;
-	color:           #6A7919;
-	font-size:       2.5em;
-	font-family:Times;
-}
-
-h2
-{
-	margin:          0;
-	display:         inline;
-	position:        relative;
-	top:             -1.5em;
-	left:            2em;
-	font-size:       1.8em;
-	font-weight:     normal;
-	color:           #94c258;
-}
-
-h3
-{
-	margin:          0;
-	font-size:       1.5em;
-	font-weight:     normal;
-	color:           #94C258;
-}
- */
-#footer
-{
-	margin:          0 auto;
-	width:           700px;
-	height:          39px;
-
-}
-
-#footer span
-{
-	display:         block;
-	position:        relative;
-	font-family: Garamond, Didot, Perpetua, Arial, Helvetica, serif;
-	font-size:       1.2em;
-	padding:         10px;
-	color:           #767676;
-}
-
-
-/* Start the code from main.css (jekyll template) here
-
-
-/*****************************************************************************/
-/*
-/* Home
-/*
-/*****************************************************************************/
-.posts {
-  list-style-type: none;
-  margin-bottom: 2em;
-}
-
-
-
- .posts span {
-  color: #0066CC;
-  font-family: Garamond, Didot, Perpetua, Arial, Helvetica, serif;
-  font-size: 120%;
-}
- 
- .posts strong {
-  color: #6A7919;
-  font-size: 100%;
-}
-
-/*****************************************************************************/
-/*
-/* Posts
-/*
-/*****************************************************************************/
-
-/* standard */
-.post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
-}
-
-.post ul, .post ol {
-  margin-left: 1.35em;
-}
-
-.post code {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .2em;
-}
-
-.post pre code {
-  border: none;
-}
-
-/* terminal */
-.post pre.terminal {
-  border: 1px solid #000;
-  background-color: #333;
-  color: #FFF;
-}
-
-.post pre.terminal code {
-  background-color: #333;
+.verticalSpace {
+  width: 100%;
+  height: 50px;
 }
