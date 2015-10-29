@@ -1,5 +1,3 @@
-name: Tech, Travels and Data
-description: R and more
-url: http://nelsonauner.com/posts
-markdown: redcarpet
-highlighter: pygments
+name: "Nelson Auner"
+description: "R and more"
+baseurl: "https://nelsonauner.com"

@@ -6,6 +6,7 @@ title:
 
 
 
+<div id="space-for-aboutme" style="min-height:400px;" class="text-center">
 <div class="text-center">
 	<p class="lead">
 	Hi, I'm Nelson.
@@ -17,16 +18,23 @@ I run, write code, and do statistics.
 
 
 <div id="more-about-me" class="lead text-center" style="display:none">
-	<p>
 
+	<p style="padding-top:10px;">
 Outside of data, I enjoy running, nordic skiing, and Korean food. 
 	</p>
-
 	<p>I hold a MS in Statistics and BA in Economics from the University of Chicago
 	</p>
+</div>
 
-	</p>
-	<p> Ducks on Lake Monona:</p>
-  <IMG SRC= /images/WinterDucks.JPG height=500 style="border:5px solid black">
+</div>
+
+
+<hr>
+<div class="text-center">
+	{% for post in site.posts limit: 5%}
+	<a href="{{ post.url }}">
+		<h4 class="list-group-item-heading">{{ post.title }}<small> &ndash; <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%b. %d, %Y' }}</time></small></h4>
+	</a>
+	{% endfor %}
 </div>
 
