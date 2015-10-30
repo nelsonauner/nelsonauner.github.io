@@ -13,6 +13,9 @@ categories: data
 Test for whether you should use fixed or random effects
 =======================================================
 
+(page in progress)
+======
+
 I've been thinking about random effects this week. I don't think many
 people in business use them and I'm not sure if there's a good reason
 for this. One explanation is that fixed effects are common in
