@@ -8,19 +8,18 @@ title:
 
 <div id="space-for-aboutme" style="min-height:400px;" class="text-center">
 <div class="text-center">
-	<p class="lead">
+	<p class="lead" style="padding-bottom:20px;">
 	Hi, I'm Nelson.
-I run, write code, and do statistics.
+	I run, write code, and <span class="tlt">_____</span>. 
 </p>
 <input type="checkbox" id="about-me-toggle">
 </div>
 
 
-
-<div id="more-about-me" class="lead text-center" style="display:none">
+<div id="more-about-me" class="lead text-center" style="display:none;padding-top:50px;">
 
 	<p style="padding-top:10px;">
-Outside of data, I enjoy running, nordic skiing, and Korean food. 
+Outside of data, I enjoy nordic skiing, and Korean food. 
 	</p>
 	<p>I hold a MS in Statistics and BA in Economics from the University of Chicago
 	</p>
@@ -38,3 +37,41 @@ Outside of data, I enjoy running, nordic skiing, and Korean food.
 	{% endfor %}
 </div>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
+<script src="jquery.textillate.js"></script>
+
+<script>
+actionVerbs = [
+	'do statistics'
+	,'canoe'
+	,'mostly use R and python'
+	,'love hiking'
+	,'perform a lot of monte carlo simulations'
+	,'write js (poorly)'
+	,'made this website'
+	]
+len = actionVerbs.length;
+counter = 0 
+//function replaceText() {
+$(function () {
+	$('.tlt').textillate({
+				loop: true,
+				minDisplayTime: 2000,
+				in: {
+					effect: 'rotateIn'
+				},
+				out: {
+					effect: 'rotateOut',
+					callback: function() {
+	$('.texts li:first').text(actionVerbs[counter]);
+		counter = counter+1
+			if (counter > len) {
+				counter = 0 
+			};
+					}
+				}
+	});
+})
+</script>
