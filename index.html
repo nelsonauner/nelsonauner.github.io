@@ -7,23 +7,23 @@ title:
 
 
 <div id="space-for-aboutme" style="min-height:400px;" class="text-center">
-<div class="text-center">
-	<p class="lead" style="padding-bottom:20px;">
-	Hi, I'm Nelson.
-	I run, write code, and <span class="tlt"></span>. 
-</p>
-<input type="checkbox" id="about-me-toggle">
-</div>
+	<div class="text-center">
+		<p class="lead" style="padding-bottom:20px;">
+		Hi, I'm Nelson.
+		I run, write code, and <span class="tlt"></span>. 
+		</p>
+		<input type="checkbox" id="about-me-toggle">
+	</div>
 
 
-<div id="more-about-me" class="lead text-center" style="display:none;padding-top:50px;">
+	<div id="more-about-me" class="lead text-center" style="display:none;padding-top:50px;">
 
-	<p style="padding-top:10px;">
-Outside of data, I enjoy nordic skiing, and Korean food. 
-	</p>
-	<p>I hold a MS in Statistics and BA in Economics from the University of Chicago
-	</p>
-</div>
+		<p style="padding-top:10px;">
+		Outside of data, I enjoy nordic skiing, and Korean food. 
+		</p>
+		<p>I hold a MS in Statistics and BA in Economics from the University of Chicago
+		</p>
+	</div>
 
 </div>
 
@@ -44,35 +44,35 @@ Outside of data, I enjoy nordic skiing, and Korean food.
 
 <script>
 actionVerbs = [
-	'do statistics'
+	'try to do statistics'
 	,'canoe'
 	,'mostly use R and python'
 	,'love hiking'
 	,'perform a lot of monte carlo simulations'
 	,'write js (poorly)'
 	,'made this website'
-	]
-counter = 1
-	$('.tlt').text(actionVerbs[counter]);
+]
+counter = 0
+$('.tlt').text(actionVerbs[actionVerbs.length - 1]);
 len = actionVerbs.length;
 //function replaceText() {
 $(function () {
 	$('.tlt').textillate({
-				loop: true,
-				minDisplayTime: 2000,
-				in: {
-					effect: 'rotateIn'
-				},
-				out: {
-					effect: 'rotateOut',
-					callback: function() {
-	$('.texts li:first').text(actionVerbs[counter]);
-		counter = counter+1
-			if (counter > len) {
-				counter = 0 
-			};
+		loop: true
+			,minDisplayTime: 2000
+			,in: {
+				effect: 'rotateIn'
+					,callback: function() {
+						$('.texts li:first').text(actionVerbs[counter]);
+						counter = counter+1
+							if (counter > len) {
+								counter = 0 
+							};
 					}
-				}
+			}
+		,out: {
+			effect: 'rotateOut'
+		}
 	});
-})
+	})
 </script>
