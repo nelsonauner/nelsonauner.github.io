@@ -10,7 +10,7 @@ title:
 <div class="text-center">
 	<p class="lead" style="padding-bottom:20px;">
 	Hi, I'm Nelson.
-	I run, write code, and <span class="tlt">_____</span>. 
+	I run, write code, and <span class="tlt"></span>. 
 </p>
 <input type="checkbox" id="about-me-toggle">
 </div>
@@ -52,8 +52,9 @@ actionVerbs = [
 	,'write js (poorly)'
 	,'made this website'
 	]
+	$('.tlt').text(actionVerbs[counter]);
 len = actionVerbs.length;
-counter = 0 
+counter = 1
 //function replaceText() {
 $(function () {
 	$('.tlt').textillate({
