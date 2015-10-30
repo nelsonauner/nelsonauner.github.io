@@ -1,0 +1,96 @@
+---
+layout: default
+title: raceSchedule
+---
+
+ <table class="table">
+    <thead>
+      <tr>
+        <th>Race</th>
+        <th>Date</th>
+				<th>Dist</th>
+        <th>Time</th>
+        <th>Overall Place</th>
+        <th>Division Place</th>
+        <th>Details</th>
+        <th>Link to Results</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Livermore Half Marathon</td>
+        <td>2016-03-26</td>
+				<td>13.1</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+				<td></td>
+				<td></td>
+      </tr>
+      <tr>
+        <td>Berkely Half Marathon</td>
+        <td>2015-11-22</td>
+				<td>13.1</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+				<td></td>
+				<td></td>
+      </tr>
+      <tr>
+        <td>Grandma's Marathon</td>
+        <td>2015-06-20</td>
+				<td>26.2</td>
+        <td>2:50:30</td>
+        <td>205th</td>
+        <td>122nd</td>
+				<td></td>
+				<td><a href="http://www.minnesotarunner.com/run?page=Result&resultId=661606">link</a></td>
+      </tr>
+      <tr>
+        <td>Madison Marathon</td>
+        <td>2014-09-04</td>
+				<td>26.2</td>
+        <td>2:58:50</td>
+        <td>24th</td>
+        <td>8th</td>
+				<td>Beautiful and hilly course</td>
+				<td><a href="http://onlineraceresults.com/race/view_race.php?race_id=42213&submit_action=select_result&order_by=OVERALL&re_OVERALL_MIN=-14&re_OVERALL_MAX=25&highlight_no=1188&lower_bound=0&upper_bound=40">link</a></td>
+      </tr>
+      <tr>
+        <td>Regional Track &amp; Field Meet</td>
+        <td>2009-05-26</td>
+				<td>3200m</td>
+        <td>10:15.47</td>
+        <td>6</td>
+        <td>6</td>
+				<td>-</td>
+				<td> <a href="https://www.wiaawi.org/Portals/0/PDF/Results/Track/2009/middletonregional.htm">link</td>
+      </tr>
+      <tr>
+        <td>Big 8 Championship</td>
+        <td>2009-05-19</td>
+				<td>1600m</td>
+        <td>4:43.67</td>
+        <td>-</td>
+        <td>-</td>
+				<td>-</td>
+				<td><a href="https://www.athletic.net/TrackAndField/MeetResults.aspx?Meet=75723#3174">link</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+<script>
+function addRow() {
+		 
+    var table = document.getElementById("myTableData");
+    var rowCount = table.rows.length;
+    var row = table.insertRow(rowCount);
+    row.insertCell(0).innerHTML= '<input type="button" value = "Delete" onClick="Javacsript:deleteRow(this)">';
+    row.insertCell(1).innerHTML= myName.value;
+    row.insertCell(2).innerHTML= age.value;
+
+}
+</script>

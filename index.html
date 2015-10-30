@@ -5,33 +5,73 @@ title:
 
 
 
-<p><h1>Greetings!</h1></p>
 
-<p><h2> About Me: </h2> 
-I hold a MS in Statistics and BA in Economics from the University of Chicago.
-My main interests are in applied statistics and data analysis to finance, economics, and startups. Outside of data, I enjoy backpacking, nordic skiing, and Korean food. </p> 
-
-<h2> Why a website? </h2>
-I wanted to make and host a website from scratch to better understand how the internet works.
-
-
-<h2> What languages do you use? </h2> 
-<IMG SRC = "/images/python_logo.png">
-   &   
-<IMG SRC = "/images/Rlogo.jpg">
-<p>(and a bit of C++, Matlab, STATA)</p>
+<div id="space-for-aboutme" style="min-height:400px;" class="text-center">
+<div class="text-center">
+	<p class="lead" style="padding-bottom:20px;">
+	Hi, I'm Nelson.
+	I run, write code, and <span class="tlt">_____</span>. 
+</p>
+<input type="checkbox" id="about-me-toggle">
+</div>
 
 
-<p> <h2> Contact: </h2> </p>
-<p> Feel free to drop me a line at 
-<a href="mailto:nelson@nelsonauner.com" target="_top">
-nelson@nelsonauner.com</a> </p>
+<div id="more-about-me" class="lead text-center" style="display:none;padding-top:50px;">
 
-<!-- <p> Or check out my <a href="/CV.html"> CV/Research </a>, <a href="/posts.html"> or blog! </a> </p> -->
+	<p style="padding-top:10px;">
+Outside of data, I enjoy nordic skiing, and Korean food. 
+	</p>
+	<p>I hold a MS in Statistics and BA in Economics from the University of Chicago
+	</p>
+</div>
+
+</div>
 
 
+<hr>
+<div class="text-center">
+	{% for post in site.posts limit: 5%}
+	<a href="{{ post.url }}">
+		<h4 class="list-group-item-heading">{{ post.title }}<small> &ndash; <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%b. %d, %Y' }}</time></small></h4>
+	</a>
+	{% endfor %}
+</div>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
+<script src="jquery.textillate.js"></script>
 
-
-</br><p> Ducks on Lake Monona:</p>
-  <IMG SRC= /images/WinterDucks.JPG height=500 style="border:5px solid black">
+<script>
+actionVerbs = [
+	'do statistics'
+	,'canoe'
+	,'mostly use R and python'
+	,'love hiking'
+	,'perform a lot of monte carlo simulations'
+	,'write js (poorly)'
+	,'made this website'
+	]
+len = actionVerbs.length;
+counter = 0 
+//function replaceText() {
+$(function () {
+	$('.tlt').textillate({
+				loop: true,
+				minDisplayTime: 2000,
+				in: {
+					effect: 'rotateIn'
+				},
+				out: {
+					effect: 'rotateOut',
+					callback: function() {
+	$('.texts li:first').text(actionVerbs[counter]);
+		counter = counter+1
+			if (counter > len) {
+				counter = 0 
+			};
+					}
+				}
+	});
+})
+</script>

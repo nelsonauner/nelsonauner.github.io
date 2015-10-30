@@ -2,8 +2,8 @@
 layout: post
 title:  "Analyzing Negotiation Genius"
 subtitle: ""
-picture: "/images/negotiation_math_small.png"
-pwidth: "200"
+picture: "/images/negotiation_math.png"
+pwidth: "500"
 pheight: ""
 categories: R
 long: "T"

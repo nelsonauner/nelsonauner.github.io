@@ -3,8 +3,8 @@ layout: post
 title:  "New Projects"
 subtitle: ""
 picture: "/images/censusCV.png"
-pwidth: "250"
-pheight: "200"
+pwidth: "500"
+pheight: 
 date:   2013-06-15 3:00:00
 categories: research
 long: "F"
