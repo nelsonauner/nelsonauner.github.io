@@ -10,7 +10,7 @@ title:
 	<div class="text-center">
 		<p class="lead" style="padding-bottom:20px;">
 		Hi, I'm Nelson.
-		I run, write code, and <span class="tlt"></span>. 
+		I run, write code, and <span class="tlt"> </span>. 
 		</p>
 		<input type="checkbox" id="about-me-toggle">
 	</div>
@@ -30,14 +30,14 @@ title:
 
 <hr>
 <div class="text-center">
+	<h3> Recent Posts </h3>
 	{% for post in site.posts limit: 5%}
 	<a href="{{ post.url }}">
-		<h4 class="list-group-item-heading">{{ post.title }}<small> &ndash; <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%b. %d, %Y' }}</time></small></h4>
+		<h4 class="list-group-item-heading">{{ post.title }}<small> &ndash; <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%b %d, %Y' }}</time></small></h4>
 	</a>
 	{% endfor %}
 </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
 <script src="jquery.textillate.js"></script>

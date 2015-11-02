@@ -3,13 +3,17 @@ layout: default
 title: Tech, Travel & Data
 ---
 
-<p><a href="/tech.html">Tech Posts </a>
-</br><a href="/travels.html">Travel Posts </a>
-</br> All posts: </p>
+<div class="container text-center " >
+	<div id="header">
+				<a class="active label-icon" data-toggle="tooltip" data-title="linkedin" href="/tech.html">All Posts</a>
+				<a class="label-icon" data-toggle="tooltip" data-title="linkedin" href="/tech.html">Stats</a>
+				<a class="label-icon" data-toggle="tooltip" data-title="linkedin" href="/travels.html">Travels</a>
+	</div>
+</div>
 
 
-<div class="posts">
- 
+<div class="posts container text-center">
+	<hr>
     {% for post in site.posts %}
       {% if post.long == "T"%}
 	  <p><b>{{ post.date | date_to_string }} - <a href="{{ post.url }}">{{ post.title }}</a></b></p>
@@ -18,7 +22,6 @@ title: Tech, Travel & Data
 	  {% endif %}
 	  {% if post.picture != ""%}
 	  <IMG SRC= {{post.picture}}  width ={{post.pwidth}} >
-	  </br>
 	  {% endif %}
 	  {% if post.long == "T"%}
 	 <p> {{post.subtitle}}</p>
@@ -27,7 +30,8 @@ title: Tech, Travel & Data
 	  {% if post.long == "F"%}
 	  {{post.content}} 
 	  {% endif %}
-	  </p></br>
+	  </p>
+		<hr>
     {% endfor %}
  </div>
 

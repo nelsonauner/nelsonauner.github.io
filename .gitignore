@@ -1,2 +1,5 @@
 _site
 .DS_store
+**.so
+**.swo
+**.swp
