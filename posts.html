@@ -3,16 +3,11 @@ layout: default
 title: Tech, Travel & Data
 ---
 
-<div class="container text-center " >
-	<div id="header">
-				<a class="active label-icon" data-toggle="tooltip" data-title="linkedin" href="/tech.html">All Posts</a>
-				<a class="label-icon" data-toggle="tooltip" data-title="linkedin" href="/tech.html">Stats</a>
-				<a class="label-icon" data-toggle="tooltip" data-title="linkedin" href="/travels.html">Travels</a>
-	</div>
-</div>
 
 
-<div class="posts container text-center">
+<div class="posts container ">
+	<div class = "row">
+		<div class = "col-sm-6 col-sm-offset-3">
 	<hr>
     {% for post in site.posts %}
       {% if post.long == "T"%}
@@ -35,3 +30,6 @@ title: Tech, Travel & Data
     {% endfor %}
  </div>
 
+	</div>
+</div>
+</div>

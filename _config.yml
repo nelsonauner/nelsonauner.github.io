@@ -1,3 +1,5 @@
 name: "Nelson Auner"
 description: "R and more"
 baseurl: "/"
+markdown: "redcarpet"
+markdown: redcarpet

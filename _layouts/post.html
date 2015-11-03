@@ -1,13 +1,20 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }}</p>
-<div class="post">
-  {% if page.showpic == "T"%}
-	  <IMG SRC= /{{page.picture}} height={{page.pheight}} width ={{page.pwidth}} >
-	  </br>
-	  {% endif %}
-	  {{picture}}
-{{ content }}
+<div class="posts container ">
+	<div class = "row">
+		<div class = "col-sm-6 col-sm-offset-3">
+			<hr>
+			<h1>{{ page.title }}</h1>
+			<p class="meta">{{ page.date | date_to_string }}</p>
+			<div class="post">
+				{% if page.showpic == "T"%}
+				<IMG SRC= /{{page.picture}} height={{page.pheight}} width ={{page.pwidth}} >
+				</br>
+				{% endif %}
+				{{picture}}
+				{{ content }}
+			</div>
+		</div>
+	</div>
 </div>

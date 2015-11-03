@@ -1,6 +1,6 @@
 ---
 layout: post
-subtitle: "Happy Halloween! This post explores the trendy `%>%` operator to add aspects of functional programming to R."
+subtitle: Happy Halloween! This post explores the trendy <code>%>%</code> operator to add aspects of functional programming to R.
 picture: "images/pumpkinR.png"
 pwidth: ""
 pheight: ""
@@ -25,7 +25,7 @@ mms <- read.csv('http://stat.pugetsound.edu/hoard/datasets/mms.csv')
 mms %>% summary
 ```
 
-```
+```r
 ##             type        color        diameter         mass     
 ##  peanut       :153   blue  :142   Min.   :11.2   Min.   :0.72  
 ##  peanut butter:201   brown :151   1st Qu.:13.2   1st Qu.:0.86  
@@ -41,7 +41,7 @@ mms %>%
   summarise(m_diam = mean(diameter), m_mass = mean(mass))
 ```
 
-```
+```r
 ## Source: local data frame [3 x 3]
 ## 
 ##            type m_diam m_mass
@@ -54,11 +54,11 @@ mms %>%
 mms %>% melt %>% head # equivalent to head(melt(mms)) 
 ```
 
-```
+```r
 ## Using type, color as id variables
 ```
 
-```
+```r
 ##            type  color variable value
 ## 1 peanut butter   blue diameter 16.20
 ## 2 peanut butter  brown diameter 16.50
