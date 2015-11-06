@@ -1,18 +1,20 @@
 ---
 layout: post
 subtitle: ""
-picture: "images/data_scientist.jpg"
+picture: ""
 pwidth: ""
 pheight: ""
 long: "T"
-showpic: "T"
+showpic: "F"
 categories: data
 
 ---
 
+It's been an absolute joy using `dplyr` with amazon's redshift. 
+A decent tutorial can be found in the `dplyr` section of [AWS official docs](https://blogs.aws.amazon.com/bigdata/post/Tx1G8828SPGX3PK/Connecting-R-with-Amazon-Redshift)
 
-Popular tech blog [ReadWrite](www.ReadWrite.com) recently posted an enthusiastic (article)[http://readwrite.com/2014/06/16/udacity-nanodegree-att-mooc-job#awesm=~oHs7YMgWL4Kdye] hyping "nanodegrees" offerd by Udacity and AT&T. The article reads like an advertisement and mentions that students can become programmers in weeks or data scientists in a couple of months
-Tech blogs often jump on obfuscating, poorly-defined 
+
+
 
 
 
