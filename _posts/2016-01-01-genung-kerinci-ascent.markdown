@@ -22,3 +22,9 @@ A strava map of my ascent to base camp:
 <iframe height='405' width='590' frameborder='0' allowtransparency='true'
 scrolling='no'
 src='https://www.strava.com/activities/466979589/embed/3387040c6a720bc8c8f50386a7e296d6f1eebb35'></iframe>
+
+And the route from base camp to summit: 
+
+<iframe height='405' width='590' frameborder='0' allowtransparency='true'
+scrolling='no'
+src='http://www.strava.com/activities/475888389/embed/96c5848f41add554a7e1383d8836f6a853fc0a83'></iframe>
