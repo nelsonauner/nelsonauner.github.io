@@ -29,7 +29,7 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 <h1>Negotiation Genius</h1>
 <p>A chapter from Deepak Malhotra and Max H. Bazerman’s <em>Negotiation Genius</em> provides the following challenge:</p>
 <p>Company T is about to make a discovery that will result in their stock price being a random number between $0 and $100.</p>
-<p> As CEO of Company A, you know that purchasing Company A will be worth, due to synergies, 150% of its stock price. </p>
+<p> As CEO of Company A, you know that purchasing Company T will be worth, due to synergies, 150% of its stock price. </p>
 <p>(If the Company T is $80/share, it is worth $120/share to you)</p>
 <p>You would like to make an offer to acquire Company T. </p><p> The trick is that you have to make your bid <em>before</em> the discovery takes place, but Company T will decide to accept your offer or not <em>after</em> the discovery.</p>
 <p>How much should you bid to take over Company T?</p>
