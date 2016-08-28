@@ -1,6 +1,6 @@
 ---
 layout: post
-subtitle: ""
+subtitle: "GPS files of route"
 picture: "images/genung_kerinci_summit.jpg"
 pwidth: ""
 pheight: ""
@@ -12,7 +12,7 @@ categories: travels
 
 Just came back from a trip through Asia, one of the highlights was a successful
 summit of Genung Kerinci, located in Sumatra. Hike went well despite very strong
-sulfer clouds and pretty extreme terrain. 
+sulfer clouds and pretty extreme terrain.
 
 Genung Kerinci is the tallest volcano in Indonesia. More info can be found on
 [ genung bagging ](http://www.gunungbagging.com/kerinci/ )
