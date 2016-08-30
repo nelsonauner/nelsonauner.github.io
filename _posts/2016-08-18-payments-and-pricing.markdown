@@ -20,7 +20,4 @@ Some interesting readings.
 
 - [You are in the business of selling promotions](http://tomtunguz.com/the-business-of-selling-promotions/)
 
-- [Tom Tonguz uses R (somewhat surprisingly) for pricing experimentation] (http://tomtunguz.com/pricing-experimentation/)
-
-
-
+- [Tom Tonguz uses R for pricing experimentation](http://tomtunguz.com/pricing-experimentation/)
