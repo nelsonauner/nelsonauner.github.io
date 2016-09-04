@@ -1,7 +1,7 @@
 ---
 layout: post
 subtitle: "GPS files of route"
-picture: "images/genung_kerinci_summit.jpg"
+picture: "images/gunung_kerinci_summit.jpg"
 pwidth: ""
 pheight: ""
 long: "T"
@@ -11,11 +11,11 @@ categories: travels
 ---
 
 Just came back from a trip through Asia, one of the highlights was a successful
-summit of Genung Kerinci, located in Sumatra. Hike went well despite very strong
+summit of Gunung Kerinci, located in Sumatra. Hike went well despite very strong
 sulfer clouds and pretty extreme terrain.
 
-Genung Kerinci is the tallest volcano in Indonesia. More info can be found on
-[ genung bagging ](http://www.gunungbagging.com/kerinci/ )
+Gunung Kerinci is the tallest volcano in Indonesia. More info can be found on
+[ gunung bagging ](http://www.gunungbagging.com/kerinci/ )
 
 A strava map of my ascent to base camp: 
 
