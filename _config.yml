@@ -2,3 +2,6 @@ name: "Nelson Auner"
 description: "R and more"
 baseurl: "/"
 markdown: kramdown
+collections:
+  races:
+    output: true

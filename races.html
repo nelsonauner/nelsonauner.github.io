@@ -1,0 +1,39 @@
+---
+layout: default
+title: raceSchedule
+---
+
+ <table class="table">
+    <thead>
+      <tr>
+        <th>Race</th>
+        <th>Date</th>
+				<th>Dist</th>
+        <th>Time</th>
+        <th>Overall Place</th>
+        <th>Division Place</th>
+        <th>Details</th>
+        <th>Link to Results</th>
+      </tr>
+    </thead>
+    <tbody>
+		 {% assign sortedraces = (site.races | sort: 'racedate') | reverse %}
+      {% for race in sortedraces %}
+        <tr>
+          <td>{{ race.racetitle }}</td>
+          <td>{{ race.racedate | date_to_string }}</td>
+          <td>{{ race.racedistance }}</td>
+          <td>{{race.overalltime | prettyprint }} </td>
+          <td>{{ race.overallplace}}</td>
+          <td>{{ race.divisionplace}}</td>
+          <td>{{race.racedetails}}</td>
+					{% if race.linktoresults %}
+						<td><a href="{{race.linktoresults}}">results</a></td>
+						{% else %}
+						<td></td>
+					{% endif %}
+        </tr>
+      {% endfor %}
+      </tr>
+    </tbody>
+  </table>
