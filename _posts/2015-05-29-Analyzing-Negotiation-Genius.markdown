@@ -101,7 +101,6 @@ p + geom_boxplot(width=.5) +
 <p>Not bad!</p>
 <p>If I have more time, I’ll figure out <span class="math">\(Var(P(offer))\)</span> as well!</p>
 </div>
-</div>
 
 
 </div>
