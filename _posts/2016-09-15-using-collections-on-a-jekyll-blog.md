@@ -1,6 +1,6 @@
 ---
 layout: post
-subtitle: ""
+subtitle: "Here's how I recently moved all of my race information from a hardcoded html table to jekyll’s built-in collection feature"
 picture: ""
 pwidth: ""
 pheight: ""
