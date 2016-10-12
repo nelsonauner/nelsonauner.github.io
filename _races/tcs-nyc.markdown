@@ -1,5 +1,5 @@
 ---
-racetitle: TCS NYC
+racetitle: TCS New York City Marathon
 racedate: 2016-11-06
 racedistance: 26.2
 overalltime: 
