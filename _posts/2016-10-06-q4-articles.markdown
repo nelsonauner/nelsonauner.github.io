@@ -23,3 +23,6 @@ are commonplace tools with a lot of applied value.
 [Kalman filter explanation](https://www.cl.cam.ac.uk/~rmf25/papers/Understanding%20the%20Basis%20of%20the%20Kalman%20Filter.pdf)
 
 [Analyze your email with python](http://moderndata.plot.ly/analyze-your-gmail-inbox-in-ipython-notebook/)
+
+[The prevalence of statistical reporting errors in psychology ](https://mbnuijten.com/statcheck/)
+[Text analysis of Trump's tweets confirms he writes only the (angrier) Android half](http://varianceexplained.org/r/trump-tweets/)
