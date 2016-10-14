@@ -5,30 +5,31 @@ title: Posts
 
 
 
-<div class="posts container ">
+<div class="posts container">
 	<div class = "row">
 		<div class = "col-sm-6 col-sm-offset-3">
-	<hr>
-    {% for post in site.posts %}
-      {% if post.long == "T"%}
-	  <p><b>{{ post.date | date_to_string }} - <a href="{{ post.url }}">{{ post.title }}</a></b></p>
-	  {% else %}
-	  <p><b>{{ post.date | date_to_string }} - {{ post.title }} </b></p>
-	  {% endif %}
-	  {% if post.picture != ""%}
-	  <IMG SRC= {{post.picture}}  width ={{post.pwidth}} >
-	  {% endif %}
-	  {% if post.long == "T"%}
-	 <p> {{post.subtitle}}</p>
-<p>	  <a href="{{ post.url }}">Read the full post</a></p>
-	  {% endif %}
-	  {% if post.long == "F"%}
-	  {{post.content}} 
-	  {% endif %}
-	  </p>
-		<hr>
-    {% endfor %}
- </div>
+			<hr>
+			{% for post in site.posts %}
+				{% if post.long == "T"%}
+					<h3> <a href="{{ post.url }}">{{ post.title }} </a> </h3>
+				{% else %}
+					<h3> {{ post.title }} </h3>
+				{% endif %}
+				<p> {{ post.date | date: '%B %d, %Y' }} </p>
+				{% if post.picture != ""%}
+					<img src= {{post.picture}}  width ={{post.pwidth}} >
+				{% endif %}
+				{% if post.long == "T"%}
+					<p> {{post.subtitle}} </p>
+					<p>	<a href="{{ post.url }}">Read the full post</a> </p>
+				{% endif %}
+				{% if post.long == "F"%}
+					{{post.content}} 
+				{% endif %}
+			</p>
+			<hr>
+			{% endfor %}
+		</div>
 
 	</div>
 </div>
