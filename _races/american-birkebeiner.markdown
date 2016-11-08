@@ -1,7 +1,7 @@
 ---
 racetitle: American Birkebeiner
 racedate: 2016-02-19
-racedistance: 55k
+racedistance: 55k Classic Ski
 overalltime: '5:22:16'
 overallplace: 883
 divisionplace: 97

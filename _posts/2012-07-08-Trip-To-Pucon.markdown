@@ -12,12 +12,10 @@ categories: travels
 
 
 Over a long a weekend, a friend and I traveled to Pucon, a popular tourist destination. 
-It was a great trip, and I really recommend it to anyone who goes to Chile. [Link to Trip Advisor] (http://www.tripadvisor.com/Tourism-g294297-Pucon_Araucania_Region-Vacations.html)
+It was a great trip, and I really recommend it to anyone who goes to Chile. [Link to Trip Advisor](http://www.tripadvisor.com/Tourism-g294297-Pucon_Araucania_Region-Vacations.html)
 
 We mainly used the lonely planet guide book, to structure the trip, with the following itinerary:
 
-
-</br>
 
 Day 0: 
 
@@ -46,7 +44,7 @@ Day 2:
 
 
 
-<IMG SRC = "/images/Nelson_Mountain_SMALL.jpg">
+![](/images/Nelson_Mountain_SMALL.jpg)
 
 
 **At the summit**
@@ -56,7 +54,7 @@ Day 2:
 
 
 
-<IMG SRC = "/images/mountain_descent_SMALL.jpg"> 
+![](/images/mountain_descent_SMALL.jpg)
 
 
 **The descent**
@@ -70,11 +68,8 @@ Day 2:
 
 Day 3: 
 
-- Again, we woke up early and took a local bus to huerquehue parque nacional [(Beautiful Google Images)] (https://encrypted.google.com/search?q=huerquehue+parque+nacional&hl=en&tbm=isch&tbo=u&source=univ&sa=X&ei=Q79VU738JdKfyATGnYLYCQ&sqi=2&ved=0CCQQsAQ&biw=1364&bih=664), a beautiful national park on the outskirts of town. i
+- Again, we woke up early and took a local bus to huerquehue parque nacional [(Beautiful Google Images)](https://encrypted.google.com/search?q=huerquehue+parque+nacional&hl=en&tbm=isch&tbo=u&source=univ&sa=X&ei=Q79VU738JdKfyATGnYLYCQ&sqi=2&ved=0CCQQsAQ&biw=1364&bih=664), a beautiful national park on the outskirts of town.
 
 - After spending the day there, we headed back to Pucon (Careful, only a couple of buses a day. The driver on the way there in the morning will have info about the departure time).
 
 - Quickly grabbed dinner, and jumped on the bus back to Santiago!
-
-
-

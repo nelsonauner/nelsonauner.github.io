@@ -1,7 +1,7 @@
 ---
 racetitle: Big 8 Championship
 racedate: 2009-05-19
-racedistance: 1600m
+racedistance: 1600m Run
 overalltime: '4:43.67'
 overallplace: 
 divisionplace: 
