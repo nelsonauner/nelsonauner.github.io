@@ -4,7 +4,7 @@ subtitle: "A collection of articles/books on pricing and payments"
 picture: "images/payment_terminal_prague.jpg"
 pwidth: ""
 pheight: ""
-long: "T"
+long: "F"
 showpic: "T"
 categories: travels
 
