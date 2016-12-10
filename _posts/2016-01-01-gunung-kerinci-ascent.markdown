@@ -1,6 +1,6 @@
 ---
 layout: post
-subtitle: "GPS files of route"
+subtitle: ""
 picture: "images/gunung_kerinci_summit.jpg"
 pwidth: ""
 pheight: ""
