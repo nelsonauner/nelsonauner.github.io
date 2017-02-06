@@ -5,7 +5,7 @@ racedistance: Relay (4.5 mile x 4)
 overalltime: '1:44:45'
 overallplace: 13
 divisionplace: 9
-racedetails: team name: Wombat Combat
+racedetails: Wombat Combat
 linktoresults: http://www.westvalleytc.com/results
 
 ---
