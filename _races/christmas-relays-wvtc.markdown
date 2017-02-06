@@ -1,7 +1,7 @@
 ---
 racetitle: Christmas Relays WVTC
 racedate: 2015-12-11
-racedistance: 4.5
+racedistance: Relay (4.5 mile x 4)
 overalltime: '26:12'
 overallplace: 52nd
 divisionplace: NA
