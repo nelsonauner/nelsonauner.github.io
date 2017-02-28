@@ -17,9 +17,7 @@ showpic: "T"
 >murders from occurring, are we being penny-wise and dollar 
 >foolish if we worry about that [the overtime budget]?”			
 
-Chicago Police Supt. Garry McCarthy
-
-(reported on [The Chicagoist](http://chicagoist.com/2013/05/13/chicago_police_superintendent_every.php)
+- Chicago Police Supt. Garry McCarthy, as reported on [The Chicagoist](http://chicagoist.com/2013/05/13/chicago_police_superintendent_every.php)
 
 
 
