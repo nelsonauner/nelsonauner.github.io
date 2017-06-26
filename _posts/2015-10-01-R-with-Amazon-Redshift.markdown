@@ -1,7 +1,7 @@
 ---
 layout: post
 subtitle: ""
-picture: "https://cdn.amazonblogs.com/bigdata_awsblog/images/R_and_Redshift_Image_1a.png"
+picture: "https://dmhnzl5mp9mj6.cloudfront.net/bigdata_awsblog/images/R_and_Redshift_Image_1a.png"
 pwidth: ""
 pheight: ""
 long: "T"
