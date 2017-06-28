@@ -11,7 +11,7 @@ categories: data
 ---
 
 - [Square looks to enter consumer
-  lending](https://www.wsj.com/articles/jack-dorseys-square-inc-may-soon-loan-you-money-1498571586)A
+  lending](https://www.wsj.com/articles/jack-dorseys-square-inc-may-soon-loan-you-money-1498571586)
 
 - [Widespread facial recognition usage in
   China](https://www.wsj.com/articles/the-all-seeing-surveillance-state-feared-in-the-west-is-a-reality-in-china-1498493020)
