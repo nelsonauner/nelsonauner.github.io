@@ -5,6 +5,6 @@ racedistance: 26.2
 overalltime: '2:54:38'
 overallplace: 500th
 divisionplace: 29th
-linktoresults: http://web2.nyrrc.org
+linktoresults: http://results.nyrr.org/runner/11569968/races
 ---
 
