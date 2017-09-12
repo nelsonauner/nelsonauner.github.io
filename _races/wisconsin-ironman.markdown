@@ -5,8 +5,7 @@ racedistance: 140.6
 overalltime: '11:03:43'
 overallplace: 138 / 2,281
 divisionplace: 20 / 148
-racedetails: 1:12:40 swim (1:53/100m) 6:05:31 bike (18.74mph) 3:33:20 (8:12 min
-/ mile). Hilly bike course
-linktoresults: http://www.ironman.com/triathlon/coverage/athlete-tracker.aspx?race=wisconsin&y=2017#/tracker/RZ2FHXVY
+racedetails: 1:53/100m swim, 18.74mph bike, 8:12/mi run
+inktoresults: http://www.ironman.com/triathlon/coverage/athlete-tracker.aspx?race=wisconsin&y=2017#/tracker/RZ2FHXVY
 ---
 
