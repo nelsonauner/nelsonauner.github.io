@@ -21,4 +21,4 @@ categories: data
 > probabilities or decision weights, overweighting low probabilities and underweighting
 > high probabilities.
 
-https://www.nobelprize.org/nobel_prizes/economic-sciences/laureates/2017/advanced-economicsciences2017.pdf
+[Prize Announcement and Research Summary](https://www.nobelprize.org/nobel_prizes/economic-sciences/laureates/2017/advanced-economicsciences2017.pdf)
