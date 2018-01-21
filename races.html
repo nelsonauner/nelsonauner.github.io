@@ -21,7 +21,7 @@ title: Races
       {% for race in sortedraces %}
         <tr>
           <td style="white-space:nowrap;">{{ race.racetitle }}</td>
-          <td style="white-space:nowrap;">{{ race.racedate | date_to_string }}</td>
+          <td style="white-space:nowrap;">{{ race.racedate | date: "%Y-%m-%d" }}</td>
           <td>{{ race.racedistance }}</td>
           <td>{{race.overalltime | prettyprint }} </td>
           <td>{{ race.overallplace}}</td>
