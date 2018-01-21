@@ -17,11 +17,11 @@ title: Races
       </tr>
     </thead>
     <tbody>
-		 {% assign sortedraces = (site.races | sort: 'racedate') | reverse %}
+      {% assign sortedraces = site.races | sort: 'racedate' | reverse %}
       {% for race in sortedraces %}
         <tr>
-          <td>{{ race.racetitle }}</td>
-          <td>{{ race.racedate | date_to_string }}</td>
+          <td style="white-space:nowrap;">{{ race.racetitle }}</td>
+          <td style="white-space:nowrap;">{{ race.racedate | date_to_string }}</td>
           <td>{{ race.racedistance }}</td>
           <td>{{race.overalltime | prettyprint }} </td>
           <td>{{ race.overallplace}}</td>
