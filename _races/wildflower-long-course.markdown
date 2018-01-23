@@ -1,7 +1,7 @@
 ---
-racetitle: Ironman Wisconsin
-racedate: 2018-09-09
-racedistance: 140.6
+racetitle: Wildflower Long Course
+racedate: 2018-05-05
+racedistance:
 overalltime: 
 overallplace: 
 divisionplace: 
