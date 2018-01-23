@@ -1,7 +1,7 @@
 ---
 racetitle: Wildflower Long Course
 racedate: 2018-05-05
-racedistance:
+racedistance: 70.3
 overalltime: 
 overallplace: 
 divisionplace: 
