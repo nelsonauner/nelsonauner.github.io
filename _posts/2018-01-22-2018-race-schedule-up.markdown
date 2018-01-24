@@ -10,4 +10,4 @@ categories:
 
 ---
 
-[nelsonauner.com/races](nelsonauner.com/races)
+[2018 Race Schedule](/races.html)
