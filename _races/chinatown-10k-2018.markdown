@@ -2,10 +2,10 @@
 racetitle: YMCA Chinatown 10K
 racedate: 2018-03-04
 racedistance: 10K
-overalltime:
-overallplace:
-divisionplace: 
+overalltime: '40:46'
+overallplace: '6/209'
+divisionplace: '3/25'
 racedetails: 
-linktoresults:
+linktoresults: https://www.itsyourrace.com/Results/7141/2017/43972/1898
 ---
 
