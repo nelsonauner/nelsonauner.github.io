@@ -1,6 +1,6 @@
 ---
 racetitle: Bay to Breakers
-racedate: 2017-05-21
+racedate: "2017-05-21"
 racedistance: 12k Run
 overalltime: '45:36'
 overallplace: 151

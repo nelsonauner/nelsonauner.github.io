@@ -1,6 +1,6 @@
 ---
 racetitle: Wildflower Long Course
-racedate: 2018-05-05
+racedate: "2018-05-05"
 racedistance: 70.3
 overalltime:  '5:29:13'
 overallplace: 127th

@@ -1,6 +1,6 @@
 ---
 racetitle: Bay to Breakers
-racedate: 2018-05-20
+racedate: "2018-05-20"
 racedistance: 12k run
 overalltime: '44:50'
 overallplace: '132'

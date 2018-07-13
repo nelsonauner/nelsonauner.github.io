@@ -1,6 +1,6 @@
 ---
 racetitle: Ironman Wisconsin 70.3
-racedate: 2018-06-10
+racedate: "2018-06-10"
 racedistance: 70.3
 overalltime: '4:55:56'
 overallplace: '68'

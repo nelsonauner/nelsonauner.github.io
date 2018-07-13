@@ -1,6 +1,6 @@
 ---
 racetitle: Ironman Santa Rosa
-racedate: 2017-07-29
+racedate: "2017-07-29"
 racedistance: 140.6
 overalltime: '11:10:14'
 overallplace:  200 / 1736

@@ -1,6 +1,6 @@
 ---
 racetitle: Madison Marathon
-racedate: 2014-09-04
+racedate: "2014-09-04"
 racedistance: 26.2
 overalltime: '2:58:50'
 overallplace: 24th

@@ -1,6 +1,6 @@
 ---
 racetitle: Badger State Games (XC)
-racedate: 2015-01-31
+racedate: "2015-01-31"
 racedistance: 43K
 overalltime: '3:32:19.1'
 overallplace: 25th

@@ -1,6 +1,6 @@
 ---
 racetitle: Grandma's Marathon
-racedate: 2015-06-20
+racedate: "2015-06-20"
 racedistance: 26.2
 overalltime: '2:50:30'
 overallplace: 205th

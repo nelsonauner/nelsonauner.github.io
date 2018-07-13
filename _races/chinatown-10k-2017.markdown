@@ -1,6 +1,6 @@
 ---
 racetitle: YMCA Chinatown 10K
-racedate: 2017-02-29
+racedate: "2017-02-29"
 racedistance: 10K
 overalltime: '40:46'
 overallplace: '6 / 209'

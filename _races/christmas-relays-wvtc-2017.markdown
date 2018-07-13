@@ -1,6 +1,6 @@
 ---
 racetitle: Christmas Relays WVTC
-racedate: 2017-12-17
+racedate: "2017-12-17"
 racedistance: 4.5mi per lap, 4 laps
 overalltime: '1:45:08'
 overallplace: 18

@@ -1,6 +1,6 @@
 ---
 racetitle: Livermore Half Marathon
-racedate: 2016-03-26
+racedate: "2016-03-26"
 racedistance: 13.1
 overalltime: '1:25:15'
 overallplace: 

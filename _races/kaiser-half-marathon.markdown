@@ -1,6 +1,6 @@
 ---
 racetitle: Kaiser Half Marathon
-racedate: 2017-02-06
+racedate: "2017-02-06"
 racedistance: 13.1
 overalltime: '1:19:26'
 overallplace: 34
