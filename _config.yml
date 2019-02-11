@@ -2,6 +2,7 @@ name: "Nelson Auner"
 description: "R and more"
 baseurl: "/"
 markdown: kramdown
+highlighter: rouge
 collections:
   races:
     output: true
