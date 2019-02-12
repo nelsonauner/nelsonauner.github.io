@@ -5,7 +5,7 @@ picture: "images/output_11_1.png"
 pwidth: ""
 pheight: ""
 long: "T"
-showpic: "T"
+showpic: "F"
 categories: data
 mathjax: true
 
