@@ -1,0 +1,17 @@
+---
+layout: post
+subtitle: ""
+picture: ""
+pwidth: ""
+pheight: ""
+long: "F"
+showpic: "F"
+categories: data
+
+---
+
+- Titan: The Life of John D. Rockefeller, Sr., Ron Chernow
+- Testosterone, Joe Herbert 
+- A Bridge Too Far, Cornelius Ryan
+- The Storm Before the Storm: The Beginning of the End of the Roman Republic, Mike Duncan 
+
