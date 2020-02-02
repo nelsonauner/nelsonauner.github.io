@@ -6,3 +6,5 @@ highlighter: rouge
 collections:
   races:
     output: true
+
+theme: jekyll-theme-cayman
