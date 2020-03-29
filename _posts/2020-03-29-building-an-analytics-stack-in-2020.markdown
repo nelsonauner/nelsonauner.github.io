@@ -5,7 +5,7 @@ picture: "images/analysts_or_self_serve.png"
 pwidth: "500"
 pheight: "500"
 long: "T"
-showpic: "T"
+showpic: "F"
 categories: data
 mathjax: false
 
