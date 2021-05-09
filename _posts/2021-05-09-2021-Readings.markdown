@@ -1,0 +1,20 @@
+---
+layout: post
+subtitle: ""
+picture: "images/2021_books.jpg"
+pwidth: "400"
+pheight: ""
+long: "T"
+showpic: "T"
+categories: data
+
+---
+
+_I'll continue to add books here throughout the year_
+
+1. _Principles of Corporate Finance (Richard A. Brealey, Stewart C. Myers, Franklin Allen)_ This tome was much more engaging and humorous than I anticipated (an admittedly low bar). I have a much better sense for questions like "What does cost of capital mean?" or "When is adding debt to a company useful?". 
+
+2. _Inside Job: The Looting of America's Savings and Loans_. Investigative reporting and detailed drama make this read like a John Grisham legal thriller.
+
+3. [Law School for Everyone - The great courses](https://www.thegreatcourses.com/courses/law-school-for-everyone)
+
