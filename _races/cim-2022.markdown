@@ -1,0 +1,11 @@
+---
+racetitle: California International Marathon (CIM)
+racedate: "2022-12-04"
+racedistance: 26.2
+overalltime:
+overallplace:
+divisionplace:
+racedetails: 
+linktoresults: 
+---
+
