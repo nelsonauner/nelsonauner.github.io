@@ -16,8 +16,9 @@ I'll update this throughout the year
 
 ### Non-Fiction
 - _Amp It Up: Leading for Hypergrowth by Raising Expectations, Increasing Urgency, and Elevating Intensity_, Frank Slootman. 
-- The Generals: American Military Command from World War II to Today, Thomas E.
-Ricks
+- _The Generals: American Military Command from World War II to Today_, Thomas E.
+Ricks. The author argues that the US Military is hindered by increased hesitancy
+to relieve incompetent leaders.
 
 - _My Share of the Task_, Gen. Stanley McChrystal
 
@@ -52,6 +53,6 @@ year, but this year I also bought the workbook
 - [The Product-Minded Software Engineer](https://blog.pragmaticengineer.com/the-product-minded-engineer/)
 - [Kernels Part 1: What is an RBF Kernel? Really?](https://calculatedcontent.com/2012/02/06/kernels_part_1/)
 
-### Great Podcasts
+## Podcasts
 
-- 20 Minute VC - Really enjoyed the episode on growth with Brian Hal: https://www.thetwentyminutevc.com/podcast/brian-hale/
+- 20 Minute VC - Really enjoyed the episode on growth with Brian Hale: [](https://www.thetwentyminutevc.com/podcast/brian-hale/)
