@@ -1,0 +1,57 @@
+---
+layout: post
+title: "2022 Readings"
+subtitle: ""
+picture: "/images/books_2022_bw.jpg"
+pwidth: "400"
+pheight: ""
+long: "T"
+categories: data
+
+---
+
+I'll update this throughout the year
+
+## Books
+
+### Non-Fiction
+- _Amp It Up: Leading for Hypergrowth by Raising Expectations, Increasing Urgency, and Elevating Intensity_, Frank Slootman. 
+- The Generals: American Military Command from World War II to Today, Thomas E.
+Ricks
+
+- _My Share of the Task_, Gen. Stanley McChrystal
+
+- _Seven Habits Of Highly Effective People_, Stephen Covey: I read this last
+year, but this year I also bought the workbook
+
+- _Stalin's War_, Sean McMeekin
+
+- _Retribution_, Max Hastings
+
+- _Vietnam_, Max Hastings
+
+- _The Body: A Guide for Occupants_, Bill Bryson
+
+- _The Complacent Class: The Self-defeating Quest for the American Dream_, Tyler Cowen
+
+
+### Fiction
+
+- _Kafka on the Shore_, Haruki Murakami
+
+
+## Writings Online
+
+
+- [What to looker for when scaling your data team](https://towardsdatascience.com/what-to-look-for-when-scaling-your-data-team-986e00024d6a)
+- [Coalesce Replay Tracks: Sessions for the Emerging Analytics Engineer](https://blog.getdbt.com/coalesce-replay-tracks-emerging-analytics-engineers/?utm_medium=social&utm_source=linkedin&utm_campaign=h2-2021_coalesce-2021-followup_awareness&utm_content=connect__)
+- [Coalesce Replay Tracks: Sessions for the Team Preparing to Scale](https://blog.getdbt.com/coalesce-replay-tracks-scaling-teams)
+- [Anti-fragile principles for a successful data warehouse](https://blog.picnic.nl/7-antifragile-principles-for-a-successful-data-warehouse-574b655f0bc6)
+- [Growing Data Teams from Reactive to Influential](https://scientistemily.substack.com/p/reactive-proactive-influential?s=r)
+- [Data Team ROI](https://stkbailey.substack.com/p/data-team-roi?s=r)
+- [The Product-Minded Software Engineer](https://blog.pragmaticengineer.com/the-product-minded-engineer/)
+- [Kernels Part 1: What is an RBF Kernel? Really?](https://calculatedcontent.com/2012/02/06/kernels_part_1/)
+
+### Great Podcasts
+
+- 20 Minute VC - Really enjoyed the episode on growth with Brian Hal: https://www.thetwentyminutevc.com/podcast/brian-hale/
