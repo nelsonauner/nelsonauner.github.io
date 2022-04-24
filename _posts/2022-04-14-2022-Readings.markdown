@@ -2,10 +2,11 @@
 layout: post
 title: "2022 Readings"
 subtitle: ""
-picture: "/images/books_2022_bw.jpg"
+picture: "images/books_2022_bw.jpg"
 pwidth: "400"
 pheight: ""
 long: "T"
+showpic: "T"
 categories: data
 
 ---
@@ -55,4 +56,4 @@ year, but this year I also bought the workbook
 
 ## Podcasts
 
-- 20 Minute VC - Really enjoyed the episode on growth with Brian Hale: [](https://www.thetwentyminutevc.com/podcast/brian-hale/)
+- 20 Minute VC - Really enjoyed the episode on growth with Brian Hale: [20 Growth: Why Retention Defines Product Market Fit, What is Good Retention Levels Today, The Most Counterintuitive Elements of Product and Growth & Why So Many Startups Mess Up Hiring For Growth Teams](https://www.thetwentyminutevc.com/podcast/brian-hale/)

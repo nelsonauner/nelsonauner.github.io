@@ -7,6 +7,7 @@ pwidth: "400"
 pheight: ""
 long: "T"
 categories: data
+
 ---
 
 I've had an interest in personal finances ever since I read Ramit Sethi's [I Will Teach You to Be Rich](https://www.amazon.com/Will-Teach-You-Rich-Second-ebook/dp/B07GNXPP4P). There are two steps of personal finance tracking, that can be tackled seperately:
