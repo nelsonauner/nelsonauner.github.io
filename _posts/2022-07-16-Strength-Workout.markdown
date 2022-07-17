@@ -11,7 +11,7 @@ categories: data
 
 ---
 
-I'll update this throughout the year
+A simple workout focused on injury prevention
 
 0. Warmup: 
      - Body weight squats
