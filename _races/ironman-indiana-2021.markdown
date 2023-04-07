@@ -1,7 +1,7 @@
 ---
 racetitle: Ironman Indiana
 racedate: "2021-10-02"
-racedistance: Full Ironman
+racedistance: "140.6"
 overalltime: "9:51:20"
 overallplace: "29th"
 divisionplace: "5th"
