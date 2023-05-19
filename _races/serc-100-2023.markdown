@@ -1,0 +1,11 @@
+---
+racetitle: SERC Feral 100
+racedate: "2023-04-29"
+racedistance: "100 miles"
+overalltime: '29:34:00'
+overallplace: '4 / 7'
+divisionplace: ''
+racedetails: 'Around 15,000 feet of elevation'
+linktoresults: ""
+---
+
