@@ -6,6 +6,6 @@ overalltime: ''
 overallplace: ''
 divisionplace: ''
 racedetails: ''
-linktoresults:  ''
+linktoresults:
 ---
 
