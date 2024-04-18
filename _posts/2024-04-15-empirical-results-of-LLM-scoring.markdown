@@ -31,7 +31,7 @@ I had previously used Claude 2, but have been really impressed by Anthropic's la
 <img src="{{ 'images/per_llm_results.png' | relative_url }}" />
 
 
-The main takeaways here are the 
+The main takeaways here are that Claude 3 is great, and fine-tuning might be worth your effort if you want faster, cheaper, GPT-4 like performance.
 
 
 
