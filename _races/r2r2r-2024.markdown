@@ -2,10 +2,10 @@
 racetitle: Rim-to-Rim-to-Rim
 racedate: "2024-03-30"
 racedistance: "43 miles"
-overalltime: '12:00 hours'
+overalltime: '12 hrs'
 overallplace: 'N/A'
 divisionplace: 'N/A'
-racedetails: 'Grand Canyon South Rim to North Rim and back. 11,000 feet of elevation'
+racedetails: 'Grand Canyon, starting at South Rim'
 linktoresults: "https://www.strava.com/activities/11072831554"
 ---
 
