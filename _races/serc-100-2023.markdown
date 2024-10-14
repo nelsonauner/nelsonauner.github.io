@@ -1,5 +1,5 @@
 ---
-racetitle: SERC Feral 100
+racetitle: "SERC Feral 100"
 racedate: "2023-04-29"
 racedistance: "100 miles"
 overalltime: '29:34:00'
