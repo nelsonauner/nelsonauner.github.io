@@ -1,6 +1,6 @@
 ---
 racetitle: "Ruth Anderson 50K"
-racedate: "2023-10-12"
+racedate: "2024-10-12"
 racedistance: "50K"
 overalltime: '3:44:57.13'
 overallplace: '3/68'
